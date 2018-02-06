@@ -1,0 +1,68 @@
+{literal}	
+	<script type="text/javascript">
+	//FB feed
+      	var url = "http://graph.facebook.com/{/literal}{$u_fb}{literal}/feed?limit=10&callback=?";
+
+			//Use jQuery getJSON method to fetch the data from the url and then create our unordered list with the relevant data.
+			$.getJSON(url,function(json){
+			var html = "<ul>";
+			 
+			//loop through and within data array's retrieve the message variable.
+			$.each(json.data,function(i,fb){
+			if(fb.link){
+			    html += "<li><img width='45' height='45' src='"+fb.picture+"' /><p class='message'>"+ fb.message + "<br><b class='name'><a href='" +fb.link+"'>" +fb.name+ "</a></b></p><i class='date'>"+fb.created_time+"</i></li>";
+			}else{
+			    html += "<li><p class='message'>"+ fb.message + "</p><i class='date'>"+fb.created_time+"</i></li>";
+			}
+			});
+			 
+			html += "</ul>";
+
+			$('#facebookfeed').append(html);
+		  
+		});
+	</script>
+
+	<script type="text/javascript">
+	//TW feed
+	$.getJSON("http://twitter.com/statuses/user_timeline.json?screen_name={/literal}{$u_tw}{literal}&count=11&callback=?",
+ 		function(data){
+			$.each(data, function(i,tw){
+				ct = "<li><p class='message'>" + tw.text;
+			    ct = ct.replace(/http:\/\/\S+/g,  '<b class="name"><a href="$&" target="_blank">$&</a></b>');
+			    ct = ct.replace(/\s(@)(\w+)/g,    ' @<b class="name"><a href="http://twitter.com/$2" target="_blank">$2</a></b>');
+			    ct = ct.replace(/\s(#)(\w+)/g,    ' #<b class="name"><a href="http://search.twitter.com/search?q=%23$2" target="_blank">$2</a></b>');
+				ct += "<br><i class='date'>" + tw.created_at + "</i></p></li>";
+			    $("#twitterfeed").append('<ul>'+ct +"</ul>");
+ 			});
+		});
+	</script>
+
+	<style type="text/css">
+
+	#facebookfeed{text-align:left;width:300px;margin:0px auto; border: solid 1px #ccc; text-wrap: break-word; word-break: break-all; vertical-align: top;}
+	#facebookfeed ul{list-style:none;padding:0;margin:0;}
+	#facebookfeed ul li{list-style:none;padding:10px; border-top:#ccc 1px solid;}
+	#facebookfeed ul li img{float:left; padding-right: 20px;}
+	#facebookfeed .date {color: gray;}
+
+	#twitterfeed{text-align:left;width:250px;margin:0px auto; border: solid 1px #ccc; text-wrap: break-word; word-break: break-all; vertical-align: top;}
+	#twitterfeed ul{list-style:none;padding:0;margin:0;}
+	#twitterfeed ul li{list-style:none;padding:10px; border-top:#ccc 1px solid;}
+	#twitterfeed ul li img{float:left; padding-right: 20px;}
+	#twitterfeed .date {color: gray;}
+	</style>
+
+{/literal}
+	<table>
+	<tr>
+		<td id="facebookfeed">
+			{if $u_fb}<p class="big">{$fb_note}</p><br><br>
+			{else}<br><br><p class="error">facebook username not defined. can't get feed</p><br><br>{/if}
+		</td>
+		<td id="twitterfeed">
+			{if $u_tw}<p class="big">{$tw_note}</p><br><br>
+			{else}<br><br><p class="error">twitter username not defined. can't get feed</p><br><br>{/if}
+		</td>
+	</tr>
+	</table>

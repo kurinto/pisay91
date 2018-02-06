@@ -1,0 +1,61 @@
+<!-- begin post -->
+<div id="profileform-{$CID}" class="profile_edit comment-form">
+	<form id="profile-{$CID}" class="commentnow" autocomplete="on" action="?id={$CID}&act=update" method="POST">
+	  <table>
+	  <tr>
+	  	<td class="field">First Name<br><input class="input" name="pb_firstname" type="text" value="{$pb_firstname}" maxlength="32" /></td>
+	  	<td class="field">Middle Name<br><input class="input" name="pb_midname" type="text" value="{$pb_midname}" maxlength="32" /></td>
+	  	<td class="field">Last Name<br><input class="input" name="pb_lastname" type="text" value="{$pb_lastname}" maxlength="32" /></td>
+	  	<td class="field">Suffix<br><input class="input" name="pb_suffix" type="text" value="{$pb_suffix}" maxlength="32" /></td>
+	  </tr>
+	  <tr>
+		<td class="field">nickname<br><input class="input" name="pb_nickname" type="text" value="{$pb_nickname}" maxlength="32" /></td>
+		<td class="field" colspan=3>Quip (desciption below your gradpic, leave blank for random fortune)<br><input class="input" name="pb_quip" type="text" value="{$pb_quip}" style="width: 350px;" /></td>
+	  </tr>
+	  <tr>
+		<td colspan="4"><br><br></td>
+	  </tr>
+	  <tr>
+	  	<td class="field">freshman<br><input class="input" name="pb_sec_1" type="text" value="{$pb_sec_1}" maxlength="20" /></td>
+	  	<td class="field">sophomore<br><input class="input" name="pb_sec_2" type="text" value="{$pb_sec_2}" maxlength="20" /></td>
+	  	<td class="field">junior<br><input class="input" name="pb_sec_3" type="text" value="{$pb_sec_3}" maxlength="20" /></td>
+	  	<td class="field">senior<br><input class="input" name="pb_sec_4" type="text" value="{$pb_sec_4}" maxlength="20" /></td>
+	  </tr>
+	  <tr>
+		<td class="field" colspan="4">Yearbook Writeup<br><textarea class="edit" name="pb_writeup" style="width: 500px;">{$pb_writeup}</textarea></td>
+	  </tr>
+	  <tr>
+		<td colspan="4"><br><br><p style="text-wrap: break-text;">* by providing additional information below you agree that these information will be made public<br> and the author not made responsible for any consequence that may result with this action.<br><br></td>
+	  </tr>
+	  <tr>
+	  	<td class="field"><img src="{$CONFIG_IMG_URL}pisbuk/work.gif" />&nbsp;Works as<br><input class="input" name="pb_job" type="text" value="{$pb_job}" maxlength="50" /></td>
+	  	<td class="field"><img src="{$CONFIG_IMG_URL}pisbuk/work.gif" />&nbsp;Works at<br><input class="input" name="pb_work" type="text" value="{$pb_work}" maxlength="50" /></td>
+	  	<td class="field"><img src="{$CONFIG_IMG_URL}pisbuk/school.gif" />&nbsp;Studied<br><input class="input" name="pb_major" type="text" value="{$pb_major}" maxlength="50" /></td>
+	  	<td class="field"><img src="{$CONFIG_IMG_URL}pisbuk/school.gif" />&nbsp;Studied at<br><input class="input" name="pb_school" type="text" value="{$pb_school}" maxlength="50" /></td>
+	  </tr>
+	  <tr>
+	  	<td class="field"><img src="{$CONFIG_IMG_URL}pisbuk/lives.gif" />&nbsp;Lives in<br><input class="input" name="pb_city" type="text" value="{$pb_city}" maxlength="50" /></td>
+	  	<td class="field"><img src="{$CONFIG_IMG_URL}pisbuk/home.gif" />&nbsp;From<br><input class="input" name="pb_home" type="text" value="{$pb_home}" maxlength="50" /></td>
+	  	<td class="field"><img src="{$CONFIG_IMG_URL}pisbuk/love.gif" />&nbsp;Relationship<br><input class="input" name="pb_love" type="text" value="{$pb_love}" maxlength="50" /></td>
+	  	<td class="field"><img src="{$CONFIG_IMG_URL}pisbuk/language.gif" />&nbsp;Speaks<br><input class="input" name="pb_speak" type="text" value="{$pb_speak}" maxlength="50" /></td>
+	  </tr>
+	  <tr>
+	  	<td class="field"><img src="{$CONFIG_IMG_URL}pisbuk/birthday.gif" />&nbsp;Birthday (YYYY-MM-DD)<br><input class="input" name="pb_birthday" type="text" value="{$pb_birthday}" maxlength="50" /></td>
+		<td class="field">Email<br><input class="input" name="pb_email" type="text" value="{$pb_email}" maxlength="128" /></td>
+	  	<td class="field">Facebook username<br><input class="input" name="pb_fb" type="text" value="{$pb_fb}" maxlength="50" /></td>
+	  	<td class="field">Twitter username<br><input class="input" name="pb_tw" type="text" value="{$pb_tw}" maxlength="50" /></td>
+	  </tr>
+	  <tr>
+		<td colspan="4">
+		<!-- input class="input" name="act" type="hidden" value="update" />
+		<input class="input" name="id" type="hidden" value="{$CID}" /-->
+		<br><br></td>
+	  </tr>
+	  <tr>
+		<td class="field" colspan="4"><input type="submit" name="c_submit" value="Update Profile" class="submit button" /></td>
+	  </tr>
+	  </table>
+	</form>
+</div>
+
+<!-- end post -->

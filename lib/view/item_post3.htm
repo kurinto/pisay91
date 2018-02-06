@@ -1,0 +1,84 @@
+<!-- begin post -->
+{literal}
+<script type="text/javascript" language="javascript">
+$(document).ready(function () {
+	var validator = $("#commentnow{/literal}-{$post_id}{literal}").validate({
+		rules: {
+			p_topic: "required",
+			p_note: "required",
+			p_topic: {
+				required: true,
+				minlength: 2
+			},
+			p_note: {
+				required: true,
+				minlength: 2
+			}
+		},
+		messages: {
+			p_topic: "topic?",
+			p_note: "sup?"
+		},
+		errorPlacement: function(error, element) {
+			if ( element.is(":radio") )
+				error.appendTo( element.parent().next().next() );
+			else if ( element.is(":checkbox") )
+				error.appendTo ( element.next() );
+			else
+				error.appendTo( element.parent().next() );
+		},
+		success: function(label) {
+			// set &nbsp; as text for IE
+			label.html("&nbsp;").addClass("checked");
+		}
+	});
+});
+</script>
+{/literal}
+
+<a name="post-{$post_id}"></a>
+<div class="post" id="post-{$post_id}">
+
+		<div class="post-gravatar">{$avatar}</div>
+				
+		<div class="post-text">
+		<p class="status">
+		<b><a class="viewpost" href="#">editing post# {$post_id}</a></b>
+		{if $writeup eq 'edit'}<div style="float: right;"><a href="?id={$CID}&act=rp&pid={$post_id}" onclick="return confirmDialog();" title="Delete Post #{$post_id}"><img src="{$CONFIG_IMG_URL}pisbuk/ekis.png" alt="Delete Post #{$post_id}"></a></div>{/if}
+
+		</p>
+			<div id="commentform-{$post_id}" class="index-comment comment-form">
+			<form id="commentnow-{$post_id}" class="commentnow" autocomplete="on" action="?id={$CID}&act=update&pid={$post_id}" method="POST">
+			  <table>
+	  		  <tr>
+	  		  	<td class="label"><label for="p_type">Type</label></td>
+	  		  	<td class="field"><input class="type focus input" name="p_type" type="text" value="{$post_type}" maxlength="32" /></td>
+	  		  	<td class="status"></td>
+	  		  </tr>
+	  		  <tr>
+	  		  	<td class="label"><label for="p_topic">Topic</label></td>
+	  		  	<td class="field"><input class="author focus input" name="p_topic" type="text" value="{$post_title}" maxlength="32" /></td>
+	  		  	<td class="status"></td>
+	  		  </tr>
+	  		  <tr>
+	  			<td class="label"><label for="p_note">Post</label></td>
+	  			<td class="field" colspan="2"><textarea class="atg focus input" name="p_note">{$post_note}</textarea></td>
+	  			<td class="status"></td>
+	  		  </tr>
+	  		  <tr>
+	  			<td class="label"><label id="lsubmit" for="submit"></label></td>
+				<td class="field" colspan="4"><input type="submit" name="p_submit" value="Update" class="submit button" />
+	 			</td>
+	  		  </tr>
+	  		  </table>
+			</form>
+			</div>
+			<div id="commentcontainer-{$post_id}">
+				{$comments}
+			</div>
+
+		</div>
+
+</div>
+<!-- end post -->
+	

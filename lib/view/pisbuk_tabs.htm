@@ -1,0 +1,32 @@
+<!-- begin tabs -->
+			<div id="categories">
+				<ul>
+					<!-- li class="cat-item current-cat"><a href="#">{$_SELF}</a></li -->				
+					<!-- li class="cat-item {$t0}"><a href="{$SELF}">Wall</a></li>				
+					{if $tab01}<li class="cat-item {$t1}">{$tab01}</li> {/if}						
+					{if $tab02}<li class="cat-item {$t2}">{$tab02}</li> {/if}						
+					{if $tab03}<li class="cat-item {$t3}">{$tab03}</li> {/if}						
+					{if $tab04}<li class="cat-item {$t4}">{$tab04}</li> {/if} -->
+					
+					{$tabs}					
+				
+					{if not $posts}
+					<li id="liplus">
+						<a id="plus" href="#" title="Share this page!" onclick="hide_me('hiddencats'); return false" class="none">&nbsp;</a>						
+						<div id="hiddencats" style="display: none;">
+							<div id="hiddenleft"><div id="hiddenplus" onclick="hide_me('hiddencats'); return false">&nbsp;</div></div>
+							<div id="hiddenright">
+								<ul>
+									<li class="browsecat">Share:</li>
+									<li class="cat-item"><a href="http://www.facebook.com/sharer.php?u={$SELF}" target="_blank" title="on facebook"><img src="{$CONFIG_IMG_URL}pisbuk/icon-facebook.gif" alt="on facebook"></a>
+									<li class="cat-item"><a href="http://www.twitter.com/home?status=currently+reading+{$SELF}+/post-url" target="_blank" title="on twitter"><img src="{$CONFIG_IMG_URL}pisbuk/icon-twitter.gif" alt="on twitter"></a></li>
+									<li class="cat-item"><a href="mailto: ?subject=Pisbuk&body=Hi, I just found a great site {$SELF} Check it out!" title="via email"><img src="{$CONFIG_IMG_URL}pisbuk/icon-email.gif" alt="via email"></a></li>									
+								</ul>
+							</div>
+						</div>
+						
+					</li>
+					{/if}	
+				</ul>
+			</div>
+<!-- end tabs -->

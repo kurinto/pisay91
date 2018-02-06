@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+
+	<title>{$LANG_NAME} | {$fullname}</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="{$CONFIG_CSS_URL}wide.css" />
+	<link rel="stylesheet" type="text/css" href="{$CONFIG_CSS_URL}wide_sidebar.css" />
+	<link rel="stylesheet" type="text/css" href="{$CONFIG_CSS_URL}jing.css" />
+	<link rel="stylesheet" type="text/css" href="{$CONFIG_CSS_URL}prettyPhoto.css" />
+{literal}
+<script type="text/javascript">
+document.write('<div id="loading"><img src="{/literal}{$CONFIG_IMG_URL}{literal}pisbuk/ajax/indicator_large.gif" alt="loading..." /></div>');
+window.onload=function(){
+	document.getElementById("loading").style.display="none";
+}
+// begin google analytics
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22602235-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+// end google analytics
+</script>
+{/literal}
+
+<!-- firebug. comment/disable on production environment -->
+<!-- script type="text/javascript" src="/firebug-lite/build/firebug-lite-debug.js"></script --> 
+
+<script type='text/javascript' src="{$CONFIG_JS_URL}jquery/jquery-1.5.1.min.js"></script>
+<script type='text/javascript' src="{$CONFIG_JS_URL}jquery/jquery.autogrow_textarea.js"></script>
+<script type='text/javascript' src="{$CONFIG_JS_URL}jquery/jquery.onefblike.js"></script>
+<!-- script type='text/javascript' src="{$CONFIG_JS_URL}jquery/jquery.shareit.js"></script>
+<script type='text/javascript' src="{$CONFIG_JS_URL}jquery/jquery.validate.js"></script -->
+<script type="text/javascript" src="{$CONFIG_JS_URL}jquery/jquery-easing-1.3.pack.js"></script>
+<script type="text/javascript" src="{$CONFIG_JS_URL}jquery/jquery-easing-compatibility.1.2.pack.js"></script>
+<script type="text/javascript" src="{$CONFIG_JS_URL}jquery/jquery.prettyPhoto.js"></script>
+<script type='text/javascript' src="{$CONFIG_JS_URL}pisbuk2.js"></script>
+{literal}
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="{/literal}{$CONFIG_CSS_URL}{literal}ie.css" />
+	<style type="text/css" media="screen">
+		body{behavior:url({/literal}{$CONFIG_CSS_URL}{literal}iehover.htc);}
+	</style>
+	<![endif]-->
+	<!-- End Conditional Style -->
+{/literal}
+<script type="text/javascript" language="javascript">
+{literal}
+$(document).ready(function () {
+	$('#loading')
+//	    .hide()  // hide it initially
+	    .ajaxStart(function() {
+	        $(this).show();
+	    })
+	    .ajaxStop(function() {
+	        $(this).hide();
+	    });
+
+        $('.fb-like').oneFBLike({appID:'216581065022304'});
+
+// find the elements to be eased and hook the hover event
+	$('div.jimgMenu ul li a').hover(function() {  
+// if the element is currently being animated
+	  if ($(this).is(':animated')) {
+	    $(this).addClass("active").stop().animate({width: "350px"}, {duration: 450, easing: "easeOutQuad", complete: "callback"});
+	  } else {
+// ease in quickly
+	    $(this).addClass("active").stop().animate({width: "350px"}, {duration: 400, easing: "easeOutQuad", complete: "callback"});
+	  }
+	}, function () {
+// on hovering out, ease the element out
+	  if ($(this).is(':animated')) {
+	    $(this).removeClass("active").stop().animate({width: "112px"}, {duration: 400, easing: "easeInOutQuad", complete: "callback"})
+	  } else {
+// ease out slowly
+	    $(this).removeClass("active").stop(':animated').animate({width: "112px"}, {duration: 450, easing: "easeInOutQuad", complete: "callback"});
+	  }
+	});
+
+//prettyPhoto
+	  $("a[rel^='Litratuwaan']").prettyPhoto({
+			animation_speed: 'fast', /* fast/slow/normal */
+			slideshow: 5000, /* false OR interval time in ms */
+			autoplay_slideshow: false, /* true/false */
+			opacity: 0.80, /* Value between 0 and 1 */
+			show_title: true, /* true/false */
+			allow_resize: true, /* Resize the photos bigger than viewport. true/false */
+			default_width: 500,
+			default_height: 344,
+			counter_separator_label: ' of ', /* The separator for the gallery counter 1 "of" 2 */
+			theme: 'facebook', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+			horizontal_padding: 20, /* The padding on each side of the picture */
+			hideflash: false, /* Hides all the flash object on a page, set to TRUE if flash appears over prettyPhoto */
+			wmode: 'opaque', /* Set the flash wmode attribute */
+			autoplay: true, /* Automatically start videos: True/False */
+			modal: false, /* If set to true, only the close button will close the window */
+			deeplinking: true, /* Allow prettyPhoto to update the url to enable deeplinking. */
+			overlay_gallery: false, /* If set to true, a gallery will overlay the fullscreen image on mouse over */
+			keyboard_shortcuts: true, /* Set to false if you open forms inside prettyPhoto */
+			ie6_fallback: true,
+			custom_markup: '',
+			social_tools: false /* html or false to disable */
+	  }); 
+	  
+});
+{/literal}
+</script>
+</head>

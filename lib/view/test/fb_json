@@ -1,0 +1,492 @@
+------------- facebook ------------------
+
+{
+   "data": [
+      {
+         "id": "1068308337_196392257071235",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "message": "hiddencats share test #1",
+         "picture": "http://external.ak.fbcdn.net/safe_image.php?d=65debffb7269d106e15b6171c2ad2f8c&w=90&h=90&url=http\u00253A\u00252F\u00252Fwww.pisay91.org\u00252Flib\u00252Fmodel\u00252Fthumbnail.php\u00252Fpic1_tabilog.jpg\u00253Fwidth\u00253D180\u002526cropratio\u00253D1\u00253A1.25\u002526image\u00253D\u00252Fdata\u00252Favatars\u00252Ftabilog.jpg",
+         "link": "http://www.pisay91.org:80/app/classmate.php?id=188",
+         "name": "Pisbuk v.20110427",
+         "caption": "www.pisay91.org",
+         "icon": "http://static.ak.fbcdn.net/rsrc.php/v1/yD/r/aS8ecmYRys0.gif",
+         "type": "link",
+         "application": null,
+         "created_time": "2011-04-28T11:26:14+0000",
+         "updated_time": "2011-04-28T11:26:14+0000"
+      },
+      {
+         "id": "1068308337_151480914917325",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "message": "fb.like test plugin for wide css. if you can see me, then it works",
+         "picture": "http://external.ak.fbcdn.net/safe_image.php?d=02ed45968bfacb90232e7cc0b105ba8c&w=90&h=90&url=http\u00253A\u00252F\u00252Fwww.pisay91.org\u00252Flib\u00252Fmodel\u00252Fthumbnail.php\u00252Fpic1_pisay91_11.jpg\u00253Fwidth\u00253D70\u002526height\u00253D70\u002526cropratio\u00253D1\u00253A1\u002526image\u00253D\u00252Fdata\u00252Flitratuwaan\u00252Fthen\u00252Fpisay91_11.jpg",
+         "link": "http://www.pisay91.org/app/index_litratuwaan.php",
+         "name": "Pisbuk v.20110427",
+         "caption": "www.pisay91.org",
+         "icon": "http://static.ak.fbcdn.net/rsrc.php/v1/yf/r/0HZPW6-lhQu.png",
+         "type": "link",
+         "application": {
+            "name": "Likes",
+            "id": "2409997254"
+         },
+         "created_time": "2011-04-28T04:26:51+0000",
+         "updated_time": "2011-04-30T04:13:29+0000",
+         "comments": {
+            "data": [
+               {
+                  "id": "1068308337_151480914917325_1243459",
+                  "from": {
+                     "name": "Ian Ace",
+                     "id": "100001436193179"
+                  },
+                  "message": "Nice!.!Nice",
+                  "created_time": "2011-04-28T05:10:28+0000"
+               },
+               {
+                  "id": "1068308337_151480914917325_1252774",
+                  "from": {
+                     "name": "Redmond Urbino",
+                     "id": "637428875"
+                  },
+                  "message": "Great Job Clint!",
+                  "created_time": "2011-04-30T04:13:29+0000"
+               }
+            ],
+            "count": 4
+         }
+      },
+      {
+         "id": "1068308337_199099780123642",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "picture": "http://external.ak.fbcdn.net/safe_image.php?d=e9abef022b4809891d27c583df9f0e5b&w=90&h=90&url=http\u00253A\u00252F\u00252Fgigaom2.files.wordpress.com\u00252F2010\u00252F03\u00252Fevora_414e_engine_compartment.jpg\u00253Fw\u00253D604",
+         "link": "http://gigaom.com/2010/08/04/facebook-buys-friendster-patents-for-40m/",
+         "name": "Facebook Buys Friendster Patents for $40M",
+         "caption": "gigaom.com",
+         "description": "Facebook bought the entire Friendster portfolio of social networking patents earlier this year. The company bought the patents from Friendster acquirer MOL in a deal that included advertising,a partnership for payments for virtual goods and cash, and was valued at $40 million.",
+         "icon": "http://static.ak.fbcdn.net/rsrc.php/v1/yD/r/aS8ecmYRys0.gif",
+         "type": "link",
+         "created_time": "2011-04-01T10:00:58+0000",
+         "updated_time": "2011-04-01T10:00:58+0000"
+      },
+      {
+         "id": "1068308337_198545626851681",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "picture": "http://external.ak.fbcdn.net/safe_image.php?d=e04e90594143f8149fc94a0d8c59ad01&w=90&h=90&url=http\u00253A\u00252F\u00252Fwww.google.com\u00252Fintl\u00252Fen\u00252Fimages\u00252Flogos\u00252Fmail_logo.png",
+         "link": "http://mail.google.com/mail/help/motion.html",
+         "name": "Gmail Motion BETA",
+         "caption": "mail.google.com",
+         "description": "Now you can control Gmail with your body. Gmail Motion uses your computer's built-in webcam and Google's patented spatial tracking technology to detect your movements and translate them into meaningful characters and commands.",
+         "icon": "http://static.ak.fbcdn.net/rsrc.php/v1/yD/r/aS8ecmYRys0.gif",
+         "type": "link",
+         "created_time": "2011-04-01T08:03:34+0000",
+         "updated_time": "2011-04-01T17:51:40+0000",
+         "likes": {
+            "data": [
+               {
+                  "name": "Homi Amistoso",
+                  "id": "1345246073"
+               }
+            ],
+            "count": 1
+         },
+         "comments": {
+            "data": [
+               {
+                  "id": "1068308337_198545626851681_2788025",
+                  "from": {
+                     "name": "Homi Amistoso",
+                     "id": "1345246073"
+                  },
+                  "message": "galing galing!",
+                  "created_time": "2011-04-01T08:41:03+0000"
+               },
+               {
+                  "id": "1068308337_198545626851681_2788584",
+                  "from": {
+                     "name": "Mitch Patricio",
+                     "id": "585671583"
+                  },
+                  "message": "Wahaha!",
+                  "created_time": "2011-04-01T11:59:40+0000"
+               },
+               {
+                  "id": "1068308337_198545626851681_2790238",
+                  "from": {
+                     "name": "Ayrah Tumbokon",
+                     "id": "652397151"
+                  },
+                  "message": "ang kul! share ko ito kuya clint :D dapat serious face daw habang nag ba body movement. hahaha",
+                  "created_time": "2011-04-01T17:51:40+0000"
+               }
+            ],
+            "count": 3
+         }
+      },
+      {
+         "id": "1068308337_161904973868394",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "picture": "http://platform.ak.fbcdn.net/www/app_full_proxy.php?app=10979261223&v=1&size=z&cksum=ba460a6edccd683829b8b59f5f5ef7d9&src=http\u00253A\u00252F\u00252Fmwfb.static.zgncdn.com\u00252Fmwfb\u00252Fgraphics\u00252Fmw_feed_energypack_90x90_02.gif",
+         "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=index&next_action=send_energy_mbox&zy_track=feed&from=p\u00257C50658601&sendkey=1ae6aff4e8610a6c4d615bca061baa7a\u002524\u002524ccL4QUWV05bNY5\u00252AUyWK5V1Nv_JJouMXIJ1hb\u0025215_\u0025214ksM53Gemcs9q\u002529ByHC&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522energy_pack_ask_mbox\u002522\u00252C+\u002522fh\u002522\u00253A\u002522309d1351e4daca600b344e2e875d4048\u002522\u00252C+\u002522token\u002522\u00253A\u0025226e798bd34ea24cea948bce30a7a84a0f\u002522\u00257D",
+         "name": "Clint needs more energy to commit crimes",
+         "description": "Clint needs an energy pack to wreak havoc in Mafia Wars. Send a pack to Clint. You get Loyalty Points for helping.",
+         "icon": "http://photos-a.ak.fbcdn.net/photos-ak-snc1/v43/231/10979261223/app_2_10979261223_8090.gif",
+         "actions": [
+            {
+               "name": "Send energy",
+               "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=index&next_action=send_energy_mbox&zy_track=feed&from=p|50658601&sendkey=1ae6aff4e8610a6c4d615bca061baa7a$$ccL4QUWV05bNY5*UyWK5V1Nv_JJouMXIJ1hb!5_!4ksM53Gemcs9q)ByHC&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522energy_pack_ask_mbox\u002522\u00252C+\u002522fh\u002522\u00253A\u002522309d1351e4daca600b344e2e875d4048\u002522\u00252C+\u002522token\u002522\u00253A\u0025226e798bd34ea24cea948bce30a7a84a0f\u002522\u00257D"
+            }
+         ],
+         "type": "link",
+         "application": {
+            "name": "Mafia Wars",
+            "id": "10979261223"
+         },
+         "created_time": "2011-04-01T03:25:47+0000",
+         "updated_time": "2011-04-01T03:25:47+0000"
+      },
+      {
+         "id": "1068308337_161560803900656",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "message": "woohoo!",
+         "link": "http://mail.google.com/support/bin/answer.py?answer=106015",
+         "name": "Sending SMS from Gmail - Gmail Help",
+         "caption": "mail.google.com",
+         "description": "Note regarding mobile phone subscribers in North America: depending on which mobile plans your contacts in North America have, they may be charged by their mobile providers for receiving text messages.",
+         "icon": "http://static.ak.fbcdn.net/rsrc.php/v1/yD/r/aS8ecmYRys0.gif",
+         "type": "link",
+         "created_time": "2011-03-31T06:25:34+0000",
+         "updated_time": "2011-03-31T06:25:34+0000"
+      },
+      {
+         "id": "1068308337_212415528773463",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "message": "good morning world!",
+         "picture": "http://external.ak.fbcdn.net/safe_image.php?d=ade75079f4c567b8aa920ea970f6033d&w=130&h=130&url=http\u00253A\u00252F\u00252Fi.ytimg.com\u00252Fvi\u00252FqMxX-QOV9tI\u00252F0.jpg",
+         "link": "http://www.youtube.com/watch?v=qMxX-QOV9tI",
+         "source": "http://www.youtube.com/v/qMxX-QOV9tI&fs=1?autoplay=1",
+         "name": "Jessie J - Price Tag ft. B.o.B.",
+         "caption": "www.youtube.com",
+         "description": "Download Jessie J's 'Price Tag' now from iTunes: http://itunes.apple.com/us/artist/jessie-j/id405360400   Amazon UK fans only: http://zaphod.uk.vvhp.net/v-v/110110182705    Pre-Order Who You Are on iTunes Today! US Album Available Everywhere April 12th on iTunes:   http://itunes.apple.umrg.com/us/pr",
+         "icon": "http://static.ak.fbcdn.net/rsrc.php/v1/yj/r/v2OnaTyTQZE.gif",
+         "type": "video",
+         "created_time": "2011-03-25T23:31:37+0000",
+         "updated_time": "2011-03-25T23:31:37+0000"
+      },
+      {
+         "id": "1068308337_139805199418898",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "message": "might be of use...",
+         "link": "http://japan.person-finder.appspot.com/?lang=en",
+         "name": "Google Person Finder: 2011 Japan Earthquake",
+         "caption": "japan.person-finder.appspot.com",
+         "icon": "http://static.ak.fbcdn.net/rsrc.php/v1/yD/r/aS8ecmYRys0.gif",
+         "type": "link",
+         "created_time": "2011-03-11T10:16:03+0000",
+         "updated_time": "2011-03-11T10:16:03+0000",
+         "likes": {
+            "data": [
+               {
+                  "name": "Jb Cada",
+                  "id": "557645834"
+               }
+            ],
+            "count": 1
+         }
+      },
+      {
+         "id": "1068308337_196163403748701",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "message": "dang!",
+         "picture": "http://external.ak.fbcdn.net/safe_image.php?d=528c5d69ea855d08523ea4461d781be1&w=130&h=130&url=http\u00253A\u00252F\u00252Fi.ytimg.com\u00252Fvi\u00252FVopzGcBkfnE\u00252F3.jpg",
+         "link": "http://www.youtube.com/watch?v=VopzGcBkfnE",
+         "source": "http://www.youtube.com/v/VopzGcBkfnE&autoplay=1&fs=1",
+         "name": "Japanese Earthquake / Tsunami TV Coverage March 11, 2011",
+         "caption": "www.youtube.com",
+         "description": "Japanese Earthquake / Tsunami TV Coverage March 11, 2011",
+         "icon": "http://static.ak.fbcdn.net/rsrc.php/v1/yj/r/v2OnaTyTQZE.gif",
+         "type": "video",
+         "application": {
+            "name": "Links",
+            "id": "2309869772"
+         },
+         "created_time": "2011-03-11T08:04:51+0000",
+         "updated_time": "2011-03-17T00:44:36+0000",
+         "comments": {
+            "data": [
+               {
+                  "id": "1068308337_196163403748701_2739901",
+                  "from": {
+                     "name": "Crislyn Banta",
+                     "id": "100000876180369"
+                  },
+                  "message": "graBe...",
+                  "created_time": "2011-03-17T00:44:36+0000"
+               }
+            ],
+            "count": 1
+         }
+      },
+      {
+         "id": "1068308337_198767223486150",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "picture": "http://platform.ak.fbcdn.net/www/app_full_proxy.php?app=10979261223&v=1&size=z&cksum=c5d3c8bd75eb11f3b3a1181aa63024b7&src=http\u00253A\u00252F\u00252Fmwfb.static.zgncdn.com\u00252Fmwfb\u00252Fgraphics\u00252Fbangkok_social_ep8ch1_90x90_01.gif",
+         "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p\u00257C50658601&cityId=4&jobId=136&sendkey=1bb718920d82fd10e4619084cab8a017\u002524\u002524ccL4QUWV05bNY5\u00252AUMXI\u002528PWNp9IhXyK\u00252AIYCDnV\u002529_-blsM8cGqB3\u00252CD.6hzD4dq\u00252Aj_tCfPPFOez-Cc1bVgQ3X\u002528zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D",
+         "name": "Clint needs help in Bangkok",
+         "description": "Clint   can't get the job done alone in Bangkok. Show your mafia loyalty. Get a bonus and Loyalty Points for helping.",
+         "icon": "http://photos-a.ak.fbcdn.net/photos-ak-snc1/v43/231/10979261223/app_2_10979261223_8090.gif",
+         "actions": [
+            {
+               "name": "Help Clint",
+               "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p|50658601&cityId=4&jobId=136&sendkey=1bb718920d82fd10e4619084cab8a017$$ccL4QUWV05bNY5*UMXI(PWNp9IhXyK*IYCDnV)_-blsM8cGqB3,D.6hzD4dq*j_tCfPPFOez-Cc1bVgQ3X(zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D"
+            }
+         ],
+         "type": "link",
+         "application": {
+            "name": "Mafia Wars",
+            "id": "10979261223"
+         },
+         "created_time": "2011-03-05T06:22:04+0000",
+         "updated_time": "2011-03-05T06:22:04+0000"
+      },
+      {
+         "id": "1068308337_107932355954207",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "picture": "http://platform.ak.fbcdn.net/www/app_full_proxy.php?app=10979261223&v=1&size=z&cksum=c5d3c8bd75eb11f3b3a1181aa63024b7&src=http\u00253A\u00252F\u00252Fmwfb.static.zgncdn.com\u00252Fmwfb\u00252Fgraphics\u00252Fbangkok_social_ep8ch1_90x90_01.gif",
+         "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p\u00257C50658601&cityId=4&jobId=136&sendkey=f6e488805495a474366b1dbdfcd4ee59\u002524\u002524ccL4QUWV05bNY5\u00252AUMXI\u002528PWNp9IhXyK\u00252AIYCDnV\u002529_-blrN3cKnB3\u00252CD.6hzD4dq\u00252Aj_tCfPPFOez-Cc1bVgQ3X\u002528zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D",
+         "name": "Clint needs help in Bangkok",
+         "description": "Clint   can't get the job done alone in Bangkok. Show your mafia loyalty. Get a bonus and Loyalty Points for helping.",
+         "icon": "http://photos-a.ak.fbcdn.net/photos-ak-snc1/v43/231/10979261223/app_2_10979261223_8090.gif",
+         "actions": [
+            {
+               "name": "Help Clint",
+               "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p|50658601&cityId=4&jobId=136&sendkey=f6e488805495a474366b1dbdfcd4ee59$$ccL4QUWV05bNY5*UMXI(PWNp9IhXyK*IYCDnV)_-blrN3cKnB3,D.6hzD4dq*j_tCfPPFOez-Cc1bVgQ3X(zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D"
+            }
+         ],
+         "type": "link",
+         "application": {
+            "name": "Mafia Wars",
+            "id": "10979261223"
+         },
+         "created_time": "2011-03-04T03:59:21+0000",
+         "updated_time": "2011-03-04T03:59:21+0000"
+      },
+      {
+         "id": "1068308337_187208494650845",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "picture": "http://platform.ak.fbcdn.net/www/app_full_proxy.php?app=10979261223&v=1&size=z&cksum=c5d3c8bd75eb11f3b3a1181aa63024b7&src=http\u00253A\u00252F\u00252Fmwfb.static.zgncdn.com\u00252Fmwfb\u00252Fgraphics\u00252Fbangkok_social_ep8ch1_90x90_01.gif",
+         "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p\u00257C50658601&cityId=4&jobId=136&sendkey=9bb41c6a7737152bdf49e458d4ed5e56\u002524\u002524ccL4QUWV05bNY5\u00252AUMXI\u002528PWNp9IhXyK\u00252AIYCDnV\u002529_-blqR2gLoB3\u00252CD.6hzD4dq\u00252Aj_tCfPPFOez-Cc1bVgQ3X\u002528zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D",
+         "name": "Clint needs help in Bangkok",
+         "description": "Clint   can't get the job done alone in Bangkok. Show your mafia loyalty. Get a bonus and Loyalty Points for helping.",
+         "icon": "http://photos-a.ak.fbcdn.net/photos-ak-snc1/v43/231/10979261223/app_2_10979261223_8090.gif",
+         "actions": [
+            {
+               "name": "Help Clint",
+               "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p|50658601&cityId=4&jobId=136&sendkey=9bb41c6a7737152bdf49e458d4ed5e56$$ccL4QUWV05bNY5*UMXI(PWNp9IhXyK*IYCDnV)_-blqR2gLoB3,D.6hzD4dq*j_tCfPPFOez-Cc1bVgQ3X(zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D"
+            }
+         ],
+         "type": "link",
+         "application": {
+            "name": "Mafia Wars",
+            "id": "10979261223"
+         },
+         "created_time": "2011-03-03T11:09:39+0000",
+         "updated_time": "2011-03-03T11:09:39+0000"
+      },
+      {
+         "id": "1068308337_206347802714540",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "picture": "http://platform.ak.fbcdn.net/www/app_full_proxy.php?app=10979261223&v=1&size=z&cksum=c5d3c8bd75eb11f3b3a1181aa63024b7&src=http\u00253A\u00252F\u00252Fmwfb.static.zgncdn.com\u00252Fmwfb\u00252Fgraphics\u00252Fbangkok_social_ep8ch1_90x90_01.gif",
+         "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p\u00257C50658601&cityId=4&jobId=136&sendkey=26fb42f5368e539cb47705e9452689a7\u002524\u002524ccL4QUWV05bNY5\u00252AUMXI\u002528PWNp9IhXyK\u00252AIYCDnV\u002529_-blpP7dMqB3\u00252CD.6hzD4dq\u00252Aj_tCfPPFOez-Cc1bVgQ3X\u002528zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D",
+         "name": "Clint needs help in Bangkok",
+         "description": "Clint   can't get the job done alone in Bangkok. Show your mafia loyalty. Get a bonus and Loyalty Points for helping.",
+         "icon": "http://photos-a.ak.fbcdn.net/photos-ak-snc1/v43/231/10979261223/app_2_10979261223_8090.gif",
+         "actions": [
+            {
+               "name": "Help Clint",
+               "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p|50658601&cityId=4&jobId=136&sendkey=26fb42f5368e539cb47705e9452689a7$$ccL4QUWV05bNY5*UMXI(PWNp9IhXyK*IYCDnV)_-blpP7dMqB3,D.6hzD4dq*j_tCfPPFOez-Cc1bVgQ3X(zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D"
+            }
+         ],
+         "type": "link",
+         "application": {
+            "name": "Mafia Wars",
+            "id": "10979261223"
+         },
+         "created_time": "2011-03-02T03:08:07+0000",
+         "updated_time": "2011-03-02T03:08:07+0000"
+      },
+      {
+         "id": "1068308337_191490070872400",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "picture": "http://platform.ak.fbcdn.net/www/app_full_proxy.php?app=10979261223&v=1&size=z&cksum=c5d3c8bd75eb11f3b3a1181aa63024b7&src=http\u00253A\u00252F\u00252Fmwfb.static.zgncdn.com\u00252Fmwfb\u00252Fgraphics\u00252Fbangkok_social_ep8ch1_90x90_01.gif",
+         "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p\u00257C50658601&cityId=4&jobId=136&sendkey=50ee45dc387bdfaf9d7208d8b9dd5fd0\u002524\u002524ccL4QUWV05bNY5\u00252AUMXI\u002528PWNp9IhXyK\u00252AIYCDnV\u002529_-bkuNbdMqB3\u00252CD.6hzD4dq\u00252Aj_tCfPPFOez-Cc1bVgQ3X\u002528zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D",
+         "name": "Clint needs help in Bangkok",
+         "description": "Clint   can't get the job done alone in Bangkok. Show your mafia loyalty. Get a bonus and Loyalty Points for helping.",
+         "icon": "http://photos-a.ak.fbcdn.net/photos-ak-snc1/v43/231/10979261223/app_2_10979261223_8090.gif",
+         "actions": [
+            {
+               "name": "Help Clint",
+               "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p|50658601&cityId=4&jobId=136&sendkey=50ee45dc387bdfaf9d7208d8b9dd5fd0$$ccL4QUWV05bNY5*UMXI(PWNp9IhXyK*IYCDnV)_-bkuNbdMqB3,D.6hzD4dq*j_tCfPPFOez-Cc1bVgQ3X(zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D"
+            }
+         ],
+         "type": "link",
+         "application": {
+            "name": "Mafia Wars",
+            "id": "10979261223"
+         },
+         "created_time": "2011-02-24T03:48:03+0000",
+         "updated_time": "2011-02-24T03:48:03+0000"
+      },
+      {
+         "id": "1068308337_202095526467829",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "picture": "http://platform.ak.fbcdn.net/www/app_full_proxy.php?app=10979261223&v=1&size=z&cksum=c5d3c8bd75eb11f3b3a1181aa63024b7&src=http\u00253A\u00252F\u00252Fmwfb.static.zgncdn.com\u00252Fmwfb\u00252Fgraphics\u00252Fbangkok_social_ep8ch1_90x90_01.gif",
+         "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p\u00257C50658601&cityId=4&jobId=136&sendkey=8a4a58189b5d80c8fcea33e88eedd083\u002524\u002524ccL4QUWV05bNY5\u00252AUMXI\u002528PWNp9IhXyK\u00252AIYCDnV\u002529_-bksQ3iOmB3\u00252CD.6hzD4dq\u00252Aj_tCfPPFOez-Cc1bVgQ3X\u002528zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D",
+         "name": "Clint needs help in Bangkok",
+         "description": "Clint   can't get the job done alone in Bangkok. Show your mafia loyalty. Get a bonus and Loyalty Points for helping.",
+         "icon": "http://photos-a.ak.fbcdn.net/photos-ak-snc1/v43/231/10979261223/app_2_10979261223_8090.gif",
+         "actions": [
+            {
+               "name": "Help Clint",
+               "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p|50658601&cityId=4&jobId=136&sendkey=8a4a58189b5d80c8fcea33e88eedd083$$ccL4QUWV05bNY5*UMXI(PWNp9IhXyK*IYCDnV)_-bksQ3iOmB3,D.6hzD4dq*j_tCfPPFOez-Cc1bVgQ3X(zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D"
+            }
+         ],
+         "type": "link",
+         "application": {
+            "name": "Mafia Wars",
+            "id": "10979261223"
+         },
+         "created_time": "2011-02-22T02:29:58+0000",
+         "updated_time": "2011-02-22T02:29:58+0000"
+      },
+      {
+         "id": "1068308337_147784768616659",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "picture": "http://platform.ak.fbcdn.net/www/app_full_proxy.php?app=10979261223&v=1&size=z&cksum=c5d3c8bd75eb11f3b3a1181aa63024b7&src=http\u00253A\u00252F\u00252Fmwfb.static.zgncdn.com\u00252Fmwfb\u00252Fgraphics\u00252Fbangkok_social_ep8ch1_90x90_01.gif",
+         "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p\u00257C50658601&cityId=4&jobId=136&sendkey=3973ff36ce60b4281492fbf6dc53e9c2\u002524\u002524ccL4QUWV05bNY5\u00252AUMXI\u002528PWNp9IhXyK\u00252AIYCDnV\u002529_-bksM4jLqB3\u00252CD.6hzD4dq\u00252Aj_tCfPPFOez-Cc1bVgQ3X\u002528zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D",
+         "name": "Clint needs help in Bangkok",
+         "description": "Clint   can't get the job done alone in Bangkok. Show your mafia loyalty. Get a bonus and Loyalty Points for helping.",
+         "icon": "http://photos-a.ak.fbcdn.net/photos-ak-snc1/v43/231/10979261223/app_2_10979261223_8090.gif",
+         "actions": [
+            {
+               "name": "Help Clint",
+               "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p|50658601&cityId=4&jobId=136&sendkey=3973ff36ce60b4281492fbf6dc53e9c2$$ccL4QUWV05bNY5*UMXI(PWNp9IhXyK*IYCDnV)_-bksM4jLqB3,D.6hzD4dq*j_tCfPPFOez-Cc1bVgQ3X(zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D"
+            }
+         ],
+         "type": "link",
+         "application": {
+            "name": "Mafia Wars",
+            "id": "10979261223"
+         },
+         "created_time": "2011-02-21T15:41:21+0000",
+         "updated_time": "2011-02-21T15:41:21+0000"
+      },
+      {
+         "id": "1068308337_166081680108376",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "picture": "http://platform.ak.fbcdn.net/www/app_full_proxy.php?app=10979261223&v=1&size=z&cksum=c5d3c8bd75eb11f3b3a1181aa63024b7&src=http\u00253A\u00252F\u00252Fmwfb.static.zgncdn.com\u00252Fmwfb\u00252Fgraphics\u00252Fbangkok_social_ep8ch1_90x90_01.gif",
+         "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p\u00257C50658601&cityId=4&jobId=136&sendkey=d74f87db131da0423c9c1ab933ca5931\u002524\u002524ccL4QUWV05bNY5\u00252AUMXI\u002528PWNp9IhXyK\u00252AIYCDnV\u002529_-bkrRbhIsB3\u00252CD.6hzD4dq\u00252Aj_tCfPPFOez-Cc1bVgQ3X\u002528zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D",
+         "name": "Clint needs help in Bangkok",
+         "description": "Clint   can't get the job done alone in Bangkok. Show your mafia loyalty. Get a bonus and Loyalty Points for helping.",
+         "icon": "http://photos-a.ak.fbcdn.net/photos-ak-snc1/v43/231/10979261223/app_2_10979261223_8090.gif",
+         "actions": [
+            {
+               "name": "Help Clint",
+               "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p|50658601&cityId=4&jobId=136&sendkey=d74f87db131da0423c9c1ab933ca5931$$ccL4QUWV05bNY5*UMXI(PWNp9IhXyK*IYCDnV)_-bkrRbhIsB3,D.6hzD4dq*j_tCfPPFOez-Cc1bVgQ3X(zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D"
+            }
+         ],
+         "type": "link",
+         "application": {
+            "name": "Mafia Wars",
+            "id": "10979261223"
+         },
+         "created_time": "2011-02-21T03:40:46+0000",
+         "updated_time": "2011-02-21T03:40:46+0000"
+      },
+      {
+         "id": "1068308337_179645888746043",
+         "from": {
+            "name": "Clint Larraga",
+            "id": "1068308337"
+         },
+         "picture": "http://platform.ak.fbcdn.net/www/app_full_proxy.php?app=10979261223&v=1&size=z&cksum=c5d3c8bd75eb11f3b3a1181aa63024b7&src=http\u00253A\u00252F\u00252Fmwfb.static.zgncdn.com\u00252Fmwfb\u00252Fgraphics\u00252Fbangkok_social_ep8ch1_90x90_01.gif",
+         "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p\u00257C50658601&cityId=4&jobId=136&sendkey=f69a58b7cde4f8e259318e0e89b871d5\u002524\u002524ccL4QUWV05bNY5\u00252AUMXI\u002528PWNp9IhXyK\u00252AIYCDnV\u002529_-bkqT5cOnB3\u00252CD.6hzD4dq\u00252Aj_tCfPPFOez-Cc1bVgQ3X\u002528zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D",
+         "name": "Clint needs help in Bangkok",
+         "description": "Clint   can't get the job done alone in Bangkok. Show your mafia loyalty. Get a bonus and Loyalty Points for helping.",
+         "icon": "http://photos-a.ak.fbcdn.net/photos-ak-snc1/v43/231/10979261223/app_2_10979261223_8090.gif",
+         "actions": [
+            {
+               "name": "Help Clint",
+               "link": "http://apps.facebook.com/inthemafia/track.php?next_controller=story&next_action=give_help_social&zy_track=feed&from=p|50658601&cityId=4&jobId=136&sendkey=f69a58b7cde4f8e259318e0e89b871d5$$ccL4QUWV05bNY5*UMXI(PWNp9IhXyK*IYCDnV)_-bkqT5cOnB3,D.6hzD4dq*j_tCfPPFOez-Cc1bVgQ3X(zFr&next_params=\u00257B\u002522target_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522job_city\u002522\u00253A\u0025224\u002522\u00252C+\u002522friend_id\u002522\u00253A\u002522p\u00257C50658601\u002522\u00252C+\u002522feed_name\u002522\u00253A\u002522bangkok_social_job\u002522\u00252C+\u002522fh\u002522\u00253A\u002522a1327c6ef15a41605906f23ff52574af\u002522\u00257D"
+            }
+         ],
+         "type": "link",
+         "application": {
+            "name": "Mafia Wars",
+            "id": "10979261223"
+         },
+         "created_time": "2011-02-20T03:40:01+0000",
+         "updated_time": "2011-02-20T03:40:01+0000"
+      }
+   ],
+   "paging": {
+      "previous": "http://graph.facebook.com/clint.larraga/feed?limit=25&since=1303989974",
+      "next": "http://graph.facebook.com/clint.larraga/feed?limit=25&until=1298173201"
+   }
+}
+
+
+------------- twitter ------------------
+
+([{"text":"currently reading http:\/\/www.pisay91.org\/app\/classmate.php?id=16 \/post-url\nshare test #3","coordinates":null,"truncated":false,"id_str":"63566943164174336","source":"web","geo":null,"favorited":false,"retweet_count":0,"in_reply_to_screen_name":null,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"place":null,"created_at":"Thu Apr 28 11:35:14 +0000 2011","contributors":null,"user":{"profile_use_background_image":true,"follow_request_sent":null,"following":null,"friends_count":59,"profile_background_color":"C6E2EE","description":"show me yours and i'll show you mine","screen_name":"kurinto","statuses_count":25,"profile_background_image_url":"http:\/\/a1.twimg.com\/a\/1304118205\/images\/themes\/theme2\/bg.gif","verified":false,"id_str":"13373092","is_translator":false,"default_profile":false,"profile_text_color":"663B12","location":"expanse 1127.4 x 4052 x 3901.1","listed_count":0,"contributors_enabled":false,"profile_sidebar_fill_color":"DAECF4","profile_background_tile":false,"url":"http:\/\/www.coolclint.tk","lang":"en","followers_count":43,"protected":false,"notifications":null,"time_zone":"Beijing","created_at":"Tue Feb 12 02:22:09 +0000 2008","profile_link_color":"1F98C7","name":"Clint Larraga","default_profile_image":false,"profile_sidebar_border_color":"C6E2EE","id":13373092,"show_all_inline_media":false,"geo_enabled":false,"utc_offset":28800,"favourites_count":0,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/338757853\/titus_wp_normal.jpg"},"retweeted":false,"id":63566943164174336,"in_reply_to_user_id_str":null,"in_reply_to_user_id":null},{"text":"currently reading http:\/\/www.pisay91.org:80\/app\/classmate.php?id=75\nshare test #2","coordinates":null,"truncated":false,"id_str":"63565640446906370","source":"web","geo":null,"favorited":false,"retweet_count":0,"in_reply_to_screen_name":null,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"place":null,"created_at":"Thu Apr 28 11:30:04 +0000 2011","contributors":null,"user":{"profile_use_background_image":true,"follow_request_sent":null,"following":null,"friends_count":59,"profile_background_color":"C6E2EE","description":"show me yours and i'll show you mine","screen_name":"kurinto","statuses_count":25,"profile_background_image_url":"http:\/\/a1.twimg.com\/a\/1304118205\/images\/themes\/theme2\/bg.gif","verified":false,"id_str":"13373092","is_translator":false,"default_profile":false,"profile_text_color":"663B12","location":"expanse 1127.4 x 4052 x 3901.1","listed_count":0,"contributors_enabled":false,"profile_sidebar_fill_color":"DAECF4","profile_background_tile":false,"url":"http:\/\/www.coolclint.tk","lang":"en","followers_count":43,"protected":false,"notifications":null,"time_zone":"Beijing","created_at":"Tue Feb 12 02:22:09 +0000 2008","profile_link_color":"1F98C7","name":"Clint Larraga","default_profile_image":false,"profile_sidebar_border_color":"C6E2EE","id":13373092,"show_all_inline_media":false,"geo_enabled":false,"utc_offset":28800,"favourites_count":0,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/338757853\/titus_wp_normal.jpg"},"retweeted":false,"id":63565640446906370,"in_reply_to_user_id_str":null,"in_reply_to_user_id":null},{"text":"@delamarRX931 this is on another station, but you should listen to johnoy: http:\/\/www.magic899.fm\/Webparts\/podcast\/janoy.mp3 wow.","coordinates":null,"truncated":false,"id_str":"17875023205236736","source":"web","geo":null,"favorited":false,"retweet_count":0,"in_reply_to_screen_name":"delamarRX931","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"place":null,"created_at":"Thu Dec 23 09:31:52 +0000 2010","contributors":null,"user":{"profile_use_background_image":true,"follow_request_sent":null,"following":null,"friends_count":59,"profile_background_color":"C6E2EE","description":"show me yours and i'll show you mine","screen_name":"kurinto","statuses_count":25,"profile_background_image_url":"http:\/\/a1.twimg.com\/a\/1304118205\/images\/themes\/theme2\/bg.gif","verified":false,"id_str":"13373092","is_translator":false,"default_profile":false,"profile_text_color":"663B12","location":"expanse 1127.4 x 4052 x 3901.1","listed_count":0,"contributors_enabled":false,"profile_sidebar_fill_color":"DAECF4","profile_background_tile":false,"url":"http:\/\/www.coolclint.tk","lang":"en","followers_count":43,"protected":false,"notifications":null,"time_zone":"Beijing","created_at":"Tue Feb 12 02:22:09 +0000 2008","profile_link_color":"1F98C7","name":"Clint Larraga","default_profile_image":false,"profile_sidebar_border_color":"C6E2EE","id":13373092,"show_all_inline_media":false,"geo_enabled":false,"utc_offset":28800,"favourites_count":0,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/338757853\/titus_wp_normal.jpg"},"retweeted":false,"id":17875023205236736,"in_reply_to_user_id_str":"27847535","in_reply_to_user_id":27847535},{"text":"Gravity is not a version of the truth, it is the truth. Anyone who doubts it is invited to jump out of a 10th-floor window -Richard Dawkins","coordinates":null,"truncated":false,"id_str":"6486450549","source":"web","geo":null,"favorited":false,"retweet_count":0,"in_reply_to_screen_name":null,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"place":null,"created_at":"Wed Dec 09 04:00:18 +0000 2009","contributors":null,"user":{"profile_use_background_image":true,"follow_request_sent":null,"following":null,"friends_count":59,"profile_background_color":"C6E2EE","description":"show me yours and i'll show you mine","screen_name":"kurinto","statuses_count":25,"profile_background_image_url":"http:\/\/a1.twimg.com\/a\/1304118205\/images\/themes\/theme2\/bg.gif","verified":false,"id_str":"13373092","is_translator":false,"default_profile":false,"profile_text_color":"663B12","location":"expanse 1127.4 x 4052 x 3901.1","listed_count":0,"contributors_enabled":false,"profile_sidebar_fill_color":"DAECF4","profile_background_tile":false,"url":"http:\/\/www.coolclint.tk","lang":"en","followers_count":43,"protected":false,"notifications":null,"time_zone":"Beijing","created_at":"Tue Feb 12 02:22:09 +0000 2008","profile_link_color":"1F98C7","name":"Clint Larraga","default_profile_image":false,"profile_sidebar_border_color":"C6E2EE","id":13373092,"show_all_inline_media":false,"geo_enabled":false,"utc_offset":28800,"favourites_count":0,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/338757853\/titus_wp_normal.jpg"},"retweeted":false,"id":6486450549,"in_reply_to_user_id_str":null,"in_reply_to_user_id":null},{"text":"RIP Mary Travers http:\/\/bit.ly\/3UiNri","coordinates":null,"truncated":false,"id_str":"4051490727","source":"web","geo":null,"favorited":false,"retweet_count":0,"in_reply_to_screen_name":null,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"place":null,"created_at":"Thu Sep 17 10:35:17 +0000 2009","contributors":null,"user":{"profile_use_background_image":true,"follow_request_sent":null,"following":null,"friends_count":59,"profile_background_color":"C6E2EE","description":"show me yours and i'll show you mine","screen_name":"kurinto","statuses_count":25,"profile_background_image_url":"http:\/\/a1.twimg.com\/a\/1304118205\/images\/themes\/theme2\/bg.gif","verified":false,"id_str":"13373092","is_translator":false,"default_profile":false,"profile_text_color":"663B12","location":"expanse 1127.4 x 4052 x 3901.1","listed_count":0,"contributors_enabled":false,"profile_sidebar_fill_color":"DAECF4","profile_background_tile":false,"url":"http:\/\/www.coolclint.tk","lang":"en","followers_count":43,"protected":false,"notifications":null,"time_zone":"Beijing","created_at":"Tue Feb 12 02:22:09 +0000 2008","profile_link_color":"1F98C7","name":"Clint Larraga","default_profile_image":false,"profile_sidebar_border_color":"C6E2EE","id":13373092,"show_all_inline_media":false,"geo_enabled":false,"utc_offset":28800,"favourites_count":0,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/338757853\/titus_wp_normal.jpg"},"retweeted":false,"id":4051490727,"in_reply_to_user_id_str":null,"in_reply_to_user_id":null},{"text":"RIP tita cory","coordinates":null,"truncated":false,"id_str":"3062417116","source":"web","geo":null,"favorited":false,"retweet_count":0,"in_reply_to_screen_name":null,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"place":null,"created_at":"Sat Aug 01 01:32:11 +0000 2009","contributors":null,"user":{"profile_use_background_image":true,"follow_request_sent":null,"following":null,"friends_count":59,"profile_background_color":"C6E2EE","description":"show me yours and i'll show you mine","screen_name":"kurinto","statuses_count":25,"profile_background_image_url":"http:\/\/a1.twimg.com\/a\/1304118205\/images\/themes\/theme2\/bg.gif","verified":false,"id_str":"13373092","is_translator":false,"default_profile":false,"profile_text_color":"663B12","location":"expanse 1127.4 x 4052 x 3901.1","listed_count":0,"contributors_enabled":false,"profile_sidebar_fill_color":"DAECF4","profile_background_tile":false,"url":"http:\/\/www.coolclint.tk","lang":"en","followers_count":43,"protected":false,"notifications":null,"time_zone":"Beijing","created_at":"Tue Feb 12 02:22:09 +0000 2008","profile_link_color":"1F98C7","name":"Clint Larraga","default_profile_image":false,"profile_sidebar_border_color":"C6E2EE","id":13373092,"show_all_inline_media":false,"geo_enabled":false,"utc_offset":28800,"favourites_count":0,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/338757853\/titus_wp_normal.jpg"},"retweeted":false,"id":3062417116,"in_reply_to_user_id_str":null,"in_reply_to_user_id":null},{"text":"@weiwitch wala pang time eh. sige subukan ko yang peysbuk na iyan ;) k lang naman dito. just became a dad 2 weeks ago. he he","coordinates":null,"truncated":false,"id_str":"2944607161","source":"web","geo":null,"favorited":false,"retweet_count":0,"in_reply_to_screen_name":"weiwitch","in_reply_to_status_id":2924017545,"in_reply_to_status_id_str":"2924017545","place":null,"created_at":"Fri Jul 31 03:45:32 +0000 2009","contributors":null,"user":{"profile_use_background_image":true,"follow_request_sent":null,"following":null,"friends_count":59,"profile_background_color":"C6E2EE","description":"show me yours and i'll show you mine","screen_name":"kurinto","statuses_count":25,"profile_background_image_url":"http:\/\/a1.twimg.com\/a\/1304118205\/images\/themes\/theme2\/bg.gif","verified":false,"id_str":"13373092","is_translator":false,"default_profile":false,"profile_text_color":"663B12","location":"expanse 1127.4 x 4052 x 3901.1","listed_count":0,"contributors_enabled":false,"profile_sidebar_fill_color":"DAECF4","profile_background_tile":false,"url":"http:\/\/www.coolclint.tk","lang":"en","followers_count":43,"protected":false,"notifications":null,"time_zone":"Beijing","created_at":"Tue Feb 12 02:22:09 +0000 2008","profile_link_color":"1F98C7","name":"Clint Larraga","default_profile_image":false,"profile_sidebar_border_color":"C6E2EE","id":13373092,"show_all_inline_media":false,"geo_enabled":false,"utc_offset":28800,"favourites_count":0,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/338757853\/titus_wp_normal.jpg"},"retweeted":false,"id":2944607161,"in_reply_to_user_id_str":"17111685","in_reply_to_user_id":17111685},{"text":"Happy SysAd day! http:\/\/www.sysadminday.com\/","coordinates":null,"truncated":false,"id_str":"2944458530","source":"web","geo":null,"favorited":false,"retweet_count":0,"in_reply_to_screen_name":null,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"place":null,"created_at":"Fri Jul 31 03:36:18 +0000 2009","contributors":null,"user":{"profile_use_background_image":true,"follow_request_sent":null,"following":null,"friends_count":59,"profile_background_color":"C6E2EE","description":"show me yours and i'll show you mine","screen_name":"kurinto","statuses_count":25,"profile_background_image_url":"http:\/\/a1.twimg.com\/a\/1304118205\/images\/themes\/theme2\/bg.gif","verified":false,"id_str":"13373092","is_translator":false,"default_profile":false,"profile_text_color":"663B12","location":"expanse 1127.4 x 4052 x 3901.1","listed_count":0,"contributors_enabled":false,"profile_sidebar_fill_color":"DAECF4","profile_background_tile":false,"url":"http:\/\/www.coolclint.tk","lang":"en","followers_count":43,"protected":false,"notifications":null,"time_zone":"Beijing","created_at":"Tue Feb 12 02:22:09 +0000 2008","profile_link_color":"1F98C7","name":"Clint Larraga","default_profile_image":false,"profile_sidebar_border_color":"C6E2EE","id":13373092,"show_all_inline_media":false,"geo_enabled":false,"utc_offset":28800,"favourites_count":0,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/338757853\/titus_wp_normal.jpg"},"retweeted":false,"id":2944458530,"in_reply_to_user_id_str":null,"in_reply_to_user_id":null},{"text":"Support Yellow Ribbon for Pres. Cory, add a #twibbon to your avatar now! - http:\/\/bit.ly\/2IsH3K","coordinates":null,"truncated":false,"id_str":"2921969352","source":"web","geo":null,"favorited":false,"retweet_count":0,"in_reply_to_screen_name":null,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"place":null,"created_at":"Thu Jul 30 02:12:17 +0000 2009","contributors":null,"user":{"profile_use_background_image":true,"follow_request_sent":null,"following":null,"friends_count":59,"profile_background_color":"C6E2EE","description":"show me yours and i'll show you mine","screen_name":"kurinto","statuses_count":25,"profile_background_image_url":"http:\/\/a1.twimg.com\/a\/1304118205\/images\/themes\/theme2\/bg.gif","verified":false,"id_str":"13373092","is_translator":false,"default_profile":false,"profile_text_color":"663B12","location":"expanse 1127.4 x 4052 x 3901.1","listed_count":0,"contributors_enabled":false,"profile_sidebar_fill_color":"DAECF4","profile_background_tile":false,"url":"http:\/\/www.coolclint.tk","lang":"en","followers_count":43,"protected":false,"notifications":null,"time_zone":"Beijing","created_at":"Tue Feb 12 02:22:09 +0000 2008","profile_link_color":"1F98C7","name":"Clint Larraga","default_profile_image":false,"profile_sidebar_border_color":"C6E2EE","id":13373092,"show_all_inline_media":false,"geo_enabled":false,"utc_offset":28800,"favourites_count":0,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/338757853\/titus_wp_normal.jpg"},"retweeted":false,"id":2921969352,"in_reply_to_user_id_str":null,"in_reply_to_user_id":null}]);

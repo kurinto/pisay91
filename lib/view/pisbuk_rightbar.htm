@@ -1,0 +1,29 @@
+<!-- begin rightbar -->
+<div id="sidebarright">
+
+	<div class="clearfix">
+		<div class="buttons">
+			<img src="{$CONFIG_IMG_URL}icon_pshs.gif" title="Philippine Science High School Alumnus 1987-1991"><br>
+		</div>		 
+		<div>&nbsp;</div>
+	</div>
+	
+	<ul>
+			{if $message and $message eq 'Success!'}<li class="widget">
+				<h2 class="widgettitle">{$message}</h2>
+				{$pb_nickname}'s profile updated. </li>
+			{elseif $message and $message eq 'Error!'}<li class="widget">
+				<h2 class="widgettitle">{$message}</h2>
+				Nothing changed. </li>
+			{/if}
+			{if $birthdays}<li class="widget">
+				<h2 class="widgettitle">Happy Birthday!</h2>
+				<div class="celebrant"><div class='text'>{$birthdays}</div></div>
+			</li>{/if}
+			{if not $fb_comments and $writeup neq 'edit'}<li>
+			<iframe src="//www.facebook.com/plugins/like.php?href={$SELF}&amp;width=180&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=180&amp;appId=185531398166539" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:180px; height:150px;" allowTransparency="true"></iframe>
+			</li>{/if}
+	</ul>
+
+</div>
+<!-- end rightbar -->

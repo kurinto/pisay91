@@ -1,0 +1,8 @@
+    <item>
+      <title>{$comment_title}</title>
+      <description>{$comment_note}</description>
+      <author>{$comment_author}</author>
+      <link>{$comment_link}</link>
+      <guid isPermaLink="false">{$comment_link}</guid>
+      <pubDate>{$comment_date}</pubDate>
+    </item>

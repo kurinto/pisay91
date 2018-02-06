@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+<body>
+<fieldset style="text-align: right; width: 300px;">
+<legend>Add profile here</legend>
+
+	<form autocomplete=off action="{$action_url}" method="POST">
+		id: <input name="id" type="text" value="{$nextid}" size=3 /><BR> 
+		nickname: <input name="nickname" type="text" /><BR> 
+		fullname: <input name="fullname" type="text" /><BR>
+		sections: <input name="sections" type="text" /><BR>
+		<!-- writeup <textarea name="writeup"></textarea><BR -->
+		i_birthday: <input name="i_birthday" type="text" /><BR>
+		gender: <input name="gender" type="text" size=2 /><BR>
+
+		<input type="submit" name="submit" value="Submit" class="submit" />
+	</form>
+</fieldset>
+<BR><BR>
+{$messages}		
+</body>
+</html>

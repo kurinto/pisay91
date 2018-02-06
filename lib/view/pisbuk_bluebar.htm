@@ -1,0 +1,45 @@
+<!-- begin bluebar -->
+	<div id="header">
+		<div id="menu">			
+			<div id="top">				
+				<div id="thetitle">		
+					<a href="{$INDEX_URL}"><img id="logo" src="{$CONFIG_IMG_URL}/pisbuk/pisbuk-logo.jpg" alt="Pisbuk"></a>	
+				</div>				
+				<div id="thelinks">	
+					<ul id="pagemenu">	
+						<li class="icons"><a href="{$INDEX_URL}index_all.php" title="All Classmates"><img src="{$CONFIG_IMG_URL}pisbuk/friends.gif" ALT="See Everyone"></a></li>
+						<li class="icons"><a href="{$INDEX_URL}rss.php" title="RSS"><img src="{$CONFIG_IMG_URL}pisbuk/about.gif" ALT="RSS Feed"></a></li>
+						<li class="icons"><a href="http://www.pshs.edu.ph" title="Alma Mater" target="_blank"><img src="{$CONFIG_IMG_URL}pisbuk/feed.gif" ALT="Alma Mater"></a></li>
+					</ul>				
+				</div>			
+			</div>			
+			<div class="searchy">				
+				<div id="thebox">					
+					<span id="searchbar"> 	
+						<form action="{$INDEX_URL}index_search.php" method="POST" name="search_form" class="search_form"> 	
+							<input type="text" onfocus="this.value=''" name="q" value="Find a Classmate" onkeyup="lookup(this.value);" class="search-input" id="inputString" autocomplete="off" />
+							<button type="submit" title="Search"></button>
+						</form> 					
+					</span>                 
+				</div>		
+				<div id="more">
+				<ul id="moremenu">		
+					<li><strong><a href="{$INDEX_URL}" title="Front Wall">Home</a></strong></li>
+					<li><strong><a href="{$INDEX_URL}random.php?r=classmate" title="I'm Feeling Lucky">Profile</a></strong></li>
+					<li><strong><a href="#" onclick="hide_me('feedmenu'); return false;">Account &nbsp;&#9660;</a></strong>
+						<ul id="feedmenu">	
+							<!-- li class="feedli"><a href="{$INDEX_URL}classmate_feed.php?id={$CID}">Latest on {$nickname}</a></li --->
+							{if $writeup eq 'edit'}<li class="feedli"><a href="{$INDEX_URL}classmate.php?id={$CID}">View Profile</a></li>
+							{else}<li class="feedli"><a href="{$INDEX_URL}admin/classmate_edit.php?id={$CID}">Edit Profile</a></li>{/if}
+							{if $i_fb}<li class="feedli"><a href="http://www.facebook.com/{$i_fb}">@facebook</a></li>{/if}
+							{if $i_tw}<li class="feedli"><a href="http://www.twitter.com/{$i_tw}">@twitter</a></li>{/if}
+						</ul>
+					</li>
+				</ul>	
+				</div>
+			</div>		
+		</div>	
+	</div>
+<!-- end bluebar -->
+<div class="clear"></div>
+	

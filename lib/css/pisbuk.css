@@ -1,0 +1,1070 @@
+/*
+THEME NAME: Pisbuk CSS
+THEME URI: http://pisay91.org/
+VERSION: .91
+AUTHOR: clint larraga (clint.larraga@gmail.com)
+DESCRIPTION: Heavily based based on Ainun Nazieb's (http://nazieb.com/) Smells like facebook theme for wordpress. Based on Facebook profile page. 3 columns or 2 columns available. 
+TAGS: white, blue, two-columns, three-columns, theme-options, fixed-width, light
+*/
+
+* { margin: 0px; padding: 0px; border: 0; outline: 0; }
+ul li {list-style: none;}
+
+body {
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 11px;
+	background: #fff url("../img/pisbuk/bodybg.gif") repeat-x scroll left top;
+}
+
+input[type=text], textarea {
+	color: #777777;
+	font-size: 11px;
+	padding: 3px;
+	width: 150px;
+}
+
+input, textarea {
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
+textarea.input {
+	width: 200px;
+}
+
+input[type=submit], input.submit{
+	background-color:#5F78AB;
+	border:1px solid #888888;
+	border-color:#26446E #152F5F #0C2253;
+	color:#FFFFFF;
+	text-shadow:0 1px 0 #3E5A88;
+	font-size:11px;
+	font-weight:bold;
+	padding: 3px 6px 4px;
+	text-align:center;
+}
+
+a {
+	color: #3B5998;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+blockquote {
+	background: url(../img/pisbuk/quote.gif) no-repeat left 1px;
+	padding-left: 19px;
+	color: gray;
+}
+.clear {
+	clear: both;
+}
+
+#header-wrapper {
+	background-color: #3B5998;
+}
+
+#wrapper, #header {
+	width: 964px;
+	margin: 0 auto;
+}
+
+#menu {
+/*	background:transparent url(../img/pisbuk/menubar.gif) no-repeat scroll left bottom; */
+	float: left;
+	width: 964px;
+	font-size: 11px;
+
+	background: none;
+	padding-top: 12px;
+}
+
+#logo {
+	float: left;
+	margin: 5px 0px 3px 3px;
+}
+
+#menu li {
+	float: left;
+	padding: 7px 0px 8px 0px;
+}
+
+#menu li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 7px;
+}
+
+#pagemenu {
+	float: right;
+	margin-left: 5px;
+}
+
+#pagemenu a {
+	font-weight: bold;
+}
+
+#pagemenu a:hover {
+	background-color: #5C75AA;
+}
+
+#menu #pagemenu a:hover {
+	background-color: #6D86B7;
+}
+
+#pagemenu ul {
+	position: absolute;
+	border: 1px solid #3B5998;
+	margin-top: 5px;
+	display: none;
+}
+
+div#menu ul#pagemenu li:hover ul, div#menu ul#pagemenu li:hover ul:hover {
+	display: block;
+}
+
+#pagemenu ul li {
+	float: none;
+	background-color: #fff;
+	padding: 2px 0px;
+}
+
+#pagemenu ul li a {
+	color: #3B5998;
+	font-weight: normal;
+	padding: 5px 20px;
+	display: block;
+}
+
+#pagemenu ul li a:hover {
+	color: #fff;
+}
+
+#menu #more {
+	float: right;
+}
+
+#moremenu {
+	float: right;
+}
+
+#moremenu li {
+	margin-right: 5px;
+}
+
+#moremenu li a:hover {
+	background-color: #5C75AA;
+}
+
+#moremenu ul {
+	position: absolute;
+	border: 1px solid #3B5998;
+	background: #fff;
+	margin-top: 5px;
+	display: none;
+}
+
+div#menu div#more ul#moremenu li:hover ul {
+	display: block;
+}
+
+#feedmenu li.feedli {
+	float: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#feedmenu li a {
+	color: #3B5998;
+	padding: 5px 20px;
+	display: block;
+}
+
+#feedmenu li a:hover {
+	color: #fff;
+}
+
+#search {
+	float: right;
+	margin-top: 4px;
+	margin-right: 12px;
+	margin-left: 5px;
+}
+
+#search-text {
+	float: left;
+	margin-right: 2px;
+}
+
+#search-submit {
+	float: left;
+}
+
+#sidebar, #title {
+	margin-top: 20px;
+}
+
+#title h1 {
+	font-size: 16px;
+	display: inline;
+}
+
+#title h1 a {
+	color: #000;
+}
+
+#desc {
+	display: inline;
+	font-size: 13px;
+}
+
+#categories {
+	margin-top: 11px;
+	margin-bottom: 45px;
+	z-index: 10;
+	position: relative;
+}
+
+#categories.cats_new {
+	margin-top: 13px;
+}
+
+#categories li {
+	text-transform: capitalize;
+	float: left;
+	background: #D8DFEA;
+	margin-left: 3px;
+}
+#categories li a {
+	font-size:13px;
+	font-weight:bold;
+	padding:4px 11px;
+	display: block;
+}
+
+#categories li a:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #627AAD;
+}
+
+#categories .current-cat {
+	background: #fff;
+}
+
+#categories .current-cat a {
+	background: #fff;
+	color: #000;
+}
+
+#categories .current-cat a:hover {
+	background: #fff;
+	color: #000;
+}
+
+#categories #plus {
+	background: url(../img/pisbuk/plus.gif) no-repeat top left;
+	z-index:999999;
+/*	position:relative;
+	display: block; */
+}
+
+#categories #plus:hover, #categories #plus.hover {
+	background: #627AAD url(../img/pisbuk/plus.gif) no-repeat left -25px;	
+}
+
+#hiddencats {
+	width: 100px;
+	z-index: 10000;
+	left:-3px;
+	position:relative;
+	top:-28px;
+}
+
+#hiddencats li {
+	padding: 0px;
+/*	padding: 8px 5px 4px 8px; */
+	background: #eee;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	float: none;
+	margin-left: 0px; 
+}
+
+#hiddencats li.browsecat {
+	background: #fff;
+	border: 1px solid #000;
+	border-left: 1px solid #fff;
+	border-bottom: none;
+	padding: 8px;
+	width: 40px;
+	color: #666;
+}
+
+#hiddencats li img{
+	text-align: top;
+}
+
+#hiddencats li a{
+	font-weight: normal;
+	font-size: 11px;
+	padding: 7px 12px;
+}
+
+#hiddencats li a:hover {
+	background: #899BC1;
+}
+
+#hiddencats .current-cat {
+	background: #eee;
+}
+
+#hiddencats .current-cat a {
+	background: #eee;
+	color: #3B5998;
+}
+
+#hiddencats .current-cat a:hover {
+	background: #899BC1;
+	color: #fff;
+}
+
+#hiddencats ul {
+	border-bottom: 1px solid #000;
+}
+
+#hiddenleft {
+	width: 25px;
+	height: 25px;
+	border: 1px solid #000;
+	border-right: none;
+	position: absolute;
+	background: #fff;
+	padding: 2px;
+}
+
+#hiddenplus {
+	background: #627AAD url(../img/pisbuk/plus.gif) no-repeat left -25px;
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+}
+
+#hiddenright {
+	position: absolute;
+	margin-left: 30px;
+}
+
+#content {
+	float: right;
+	width: 740px;
+}
+
+.post {
+/*	clear: both;*/
+	float: left;
+	border-top:1px solid #D8DFEA;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 8px;
+}
+
+.post-gravatar {
+	float: left;
+	margin-right: 10px;
+}
+
+.post-text {
+	float: right;
+	width: 680px;
+}
+
+.post-text label input {
+	border:1px solid #BDC7D8;
+	margin-bottom: 3px;
+	color: #777777;
+	font-size: 11px;
+	padding: 3px;
+	text-align: left;
+	background: #fff;
+}
+
+.post .title {
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+
+.post p {
+	font-size: 11px;
+	margin-bottom: 10px;
+	color: black;
+/*	line-height: 15px; */
+}
+
+.post-text ul li {
+	margin-left: 15px;
+	list-style-type: disc;
+}
+
+.post ol {
+	margin-left: 20px;
+	list-style: decimal;
+}
+
+.post ul, .post ol, .post li {
+	margin-bottom: 10px;
+}
+
+.post ul ul, .post ol ol {
+	margin-top: 10px;
+}
+
+/*
+.post .meta, .post .post-meta {
+	color: #777;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+*/
+
+.post-meta {
+	border-top: 1px solid #DDDDDD;
+	padding-top: 3px;
+}
+
+.navigation {
+	background:#ECEFF5 none repeat scroll 0 0;
+	border-top:1px solid #D8DFEA;
+	margin-top:8px;
+	padding:3px 7px 4px 0;
+	float: left;
+	width: 100%;
+}
+
+.next {
+	margin-left:12px;
+	float: left;
+}
+
+.prev {
+	margin-right:12px;
+	float: right;
+}
+
+#sidebar {
+	float: left;
+	width: 180px;
+}
+
+.large-avatar {
+	margin-bottom: 10px;
+}
+
+.user-desc {
+	border:1px solid #D8DFEA;
+	color:#333333;
+	margin-bottom:20px;
+	padding:7px;
+}
+
+#sidebar .widget {
+	border-top:1px solid #94A3C4;
+	padding-bottom:10px;
+/*	border-right:1px solid #D8DFEA; */
+	background-color: #FFFFFF;
+}
+
+#sidebar .widgettitle {
+	background:#ECEFF5 none repeat scroll 0 0;
+	border-top:0 none;
+	display:block;
+	font-size:11px;
+	margin-bottom:5px;
+	padding:5px 8px;
+}
+
+#sidebar .widgettitle  a {
+	text-decoration: none;
+	color: #000;
+}
+
+#sidebar .widgettitle img {
+	display: none;
+}
+
+#sidebar .widget ul {
+	padding:0px 7px 10px 8px;
+}
+
+#sidebar .widget li {
+	margin-top: 5px;
+}
+
+.index-comment{
+	background: #ECEFF5;
+	width: 360px;
+	float: left;
+	clear: both;
+	margin-top: 2px;
+	padding: 7px;
+}
+
+.morecomments {
+	background: #ECEFF5 url(../img/pisbuk/comment.gif) no-repeat scroll 7px 7px;
+}
+
+.morecomments a {
+	margin-left: 18px;
+}
+
+#spacer{
+	margin: 0px;
+	padding: 0px;	
+	width: 1px;
+	height: 10px;
+	background: red;
+}
+
+#responses{
+	margin: 0px;
+	padding: 0px;	
+}
+
+.commentcontainer{
+	margin: 0px;
+	padding: 0px;
+}
+.fbcomments {
+	background: #ECEFF5 no-repeat scroll 7px 7px;	
+	float: left;
+	clear: both;	
+	padding: 7px;
+	margin: 2px 0px 0px 0px;
+	width: 360px;
+	color: #777;
+}
+
+
+.meta {
+/*	background: #ECEFF5 url(../img/pisbuk/post.gif) no-repeat scroll 7px 7px;	*/
+	background: #FFF url(../img/pisbuk/post.gif) no-repeat scroll 7px 7px;	
+	float: left;
+	clear: both;	
+	padding: 7px;
+	margin: 2px 0px 0px 0px;
+	width: 360px;
+	color: #777;
+/*
+	background: #ECEFF5 url(../img/pisbuk/likes.gif) no-repeat scroll 7px 7px;
+	color: #777;
+	float: left;
+	padding-left: 7px;
+	padding-right: 7px;
+	margin: 0px 0px 0px 7px;	
+*/
+}
+
+.meta a.perm {
+	margin-left: 18px;
+}
+
+.post-cat, .post-tag {
+	background: #ECEFF5;
+	float: left;
+	clear: both;	
+	padding: 7px;
+	margin: 2px 0px 0px 0px;
+	width: 360px;
+}
+
+
+.ic-avatar {
+	float: left;
+}
+
+.ic-zodiac {
+	float: left;
+}
+
+.ic-text {
+	width: 300px;
+	float: right;
+}
+
+.ic-zen {
+	width: 370px;
+	float: right;
+}
+
+.ic-zang{
+	width: 400px;
+	float: right;
+}
+
+.ic-meta {
+	margin-bottom: 3px;
+}
+
+.ic-author {
+	font-weight: bold;
+	display: inline;
+}
+
+.ic-orangy {
+	font-weight: bold;
+	display: inline;
+color: #fce292;
+}
+
+
+.ic-content, .comment p , .response p, .horoscope p{
+	display: inline;
+}
+
+.rc-content{
+	display: block;
+}
+
+
+.ic-date {
+	color: #777;
+	margin-top: 2px;
+}
+
+.comment-form input[type=text], #comment_form input[type=text], .comment-form textarea, #comment_form textarea {
+	border:1px solid #BDC7D8;
+	margin-bottom: 3px;
+}
+
+.comment-form textarea, #comment_form textarea {
+	width: 352px;
+}
+
+.comment-form textarea.commenttextright, #comment_form textarea.commenttextright {
+	height:30px;
+	margin-left:5px;
+	width:310px;
+}
+
+.form_submit_right {
+	text-align: right;
+}
+
+textarea.respondtext {
+	border:1px solid #BDC7D8;
+	height:14px;
+	width:352px;
+}
+
+#footer {
+	/* border-top:1px solid #DDDDDD; */
+	clear:both;
+	float:left;
+	margin-bottom:20px;
+	margin-top:10px;
+	padding-top:5px;
+	text-align:right;
+	width:100%;
+}
+
+.archive {
+	background:#F7F7F7 none repeat scroll 0 0;
+	border-bottom:1px solid #D8DFEA;
+	border-top:1px solid #3B5998;
+	padding:4px 6px 5px;
+	color:#333333;
+	font-size:13px;
+	font-weight:bold;
+	line-height:15px;
+}
+
+.writeup {
+	background:#F7F7F7 none no-repeat;		
+	background-image: url(../img/pisay_front2.jpg);	
+	padding:4px 6px 5px;
+	width: 95%;
+}
+
+h2.archive2 {
+	color: black; 
+	font-size: 1.5em;
+	font-family: garamond, times;
+	font-weight: bold;
+	text-shadow: white 0.1em 0.1em 0.2em
+}
+
+.nofloat {
+	float: none;
+	width: 100%;
+}
+
+.one {
+	background-color: #3B5998; 
+	width: 100%;
+	height: 39px;
+	overflow: hidden;
+}
+#thetitle {
+	float: left;
+}
+#thelinks {
+	float: right;
+}
+#top {
+	float: left;width: 170px;
+}
+
+.searchy {
+	float: right;
+	background-color: #627AAD; 
+	border: 1px solid #1D4088;
+	border-bottom: 0;
+	padding-left: 8px;
+	width: 775px;
+	padding-bottom: 1px;
+	margin-top: -4px;
+	margin-left: 5px;
+}
+
+#thebox {
+	float: left;
+}
+
+#searchbar {
+	margin-top: 4px;
+	background: white;
+	border: 1px solid #3B5998;
+	display: inline-block;
+	position: relative;
+}
+
+#searchbar input {
+	color: #777;
+	border: 0;
+	border-right: 1px solid #E5E5E5 !important;
+	outline: none;
+	margin: 2px 20px 2px 0;
+	padding: 1px 3px !important;
+	width: 271px;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+#searchbar button {
+	background: url('../img/pisbuk/search.gif') no-repeat 0 0;
+	border: 0;
+	cursor: pointer;
+	display: block;
+	float: right;
+	height: 19px;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 20px;
+	z-index: 2;
+}
+
+#nav_2 {float: right;}
+#nav_2 a {display: inline-block;height: 100%;padding: 8px 10px;color: white;font-weight: bold;text-decoration: none!important;}
+ul#feedmenu{margin-top: 9px;margin-left: -5px;}
+#menu li a:hover{background-color: #6d86b7;}
+#menu li.icons a {	color: #fff;	text-decoration: none;	/*padding: 7px;*/		padding-top: 14px;	padding-left: 2px;	padding-right: 2px;	padding-bottom: 2px;				/*background-color: #5C75AA;*/		}
+
+.footnote{
+	margin-left: 180px;
+}
+.profilename {
+/*	color: #1C2A47;	*/
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.profiledetails{
+	margin-right: 5px;
+	margin-bottom: 1px;
+	vertical-align: bottom;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 13px;
+}
+
+.school{
+	width: 11px;
+	background-image: url(../img/pisbuk/school.gif) 
+}
+
+.lives{
+	width: 8px;
+	background-image: url(../img/pisbuk/lives.gif) 
+}
+
+.work{
+	width: 9px;
+	background-image: url(../img/pisbuk/work.gif) 
+}
+
+.love{
+	width: 9px;
+	background-image: url(../img/pisbuk/love.gif) 
+}
+
+.language{
+	width: 10px;
+	background-image: url(../img/pisbuk/language.gif) 
+}
+
+.home{
+	width: 10px;
+	background-image: url(../img/pisbuk/home.gif) 
+}
+.birthday{
+	width: 10px;
+	background-image: url(../img/pisbuk/birthday.gif) 
+}
+
+.wall{
+	background: url(../img/pisbuk/quote.gif) no-repeat left 1px;
+	padding-left: 25px;
+	color: black;
+	font-size: 1.2em;
+	height: 20px;
+}
+
+.info{
+	background: url(../img/pisbuk/info.gif) no-repeat left 1px;
+	padding-left: 25px;
+	color: black;
+	font-size: 1.2em;
+	height: 20px;
+}
+
+.photos{
+	background: url(../img/pisbuk/photos.gif) no-repeat left 1px;
+	padding-left: 25px;
+	color: black;
+	font-size: 1.2em;
+	height: 20px;
+}
+.videos{
+	background: url(../img/pisbuk/videos.gif) no-repeat left 1px;
+	padding-left: 25px;
+	color: black;
+	font-size: 1.2em;
+	height: 20px;
+}
+.notes{
+	background: url(../img/pisbuk/notes.gif) no-repeat left 1px;
+	padding-left: 25px;
+	color: black;
+	font-size: 1.2em;
+	height: 20px;
+}
+.friends{
+	background: url(../img/pisbuk/friends2.gif) no-repeat left 1px;
+	padding-left: 25px;
+	color: black;
+	font-size: 1.2em;
+	height: 20px;
+}
+.likes {
+ 	background: #ECEFF5 url(../img/pisbuk/likes.gif) no-repeat scroll 7px 7px;	
+	float: left;
+	clear: both;	
+	padding: 7px;
+	margin: 2px 0px 0px 0px;
+	width: 360px;
+}
+.likes div.text{ 
+        float: left;
+	margin-left: 18px;
+        display: inline;
+}
+
+.celebrant {
+ 	background: url(../img/pisbuk/gift.gif) no-repeat scroll 0px 5px;	
+	clear: both;	
+	padding: 2px;
+	margin: 0px;
+	width: 95%;
+	height: 20px;
+}
+.celebrant div.text{ 
+	float: left;
+	margin-left: 20px;
+        display: inline;
+	text-wrap: break-word;
+}
+
+.cpholder {
+	clear: both;	
+	padding: 7px;
+	margin: 2px 0px 0px 0px;
+	width: 550px;
+}
+.cpholder p.caption{ 
+        float: center;
+        display: block;
+        color: #666;
+        width: 95%;
+}
+.tags{ 
+ 	background: #FFF url(../img/pisbuk/tagged.gif) no-repeat scroll 0px 0px;	
+	margin-left: 18px;
+	float: left;
+        width: 90%;
+}
+.tags p.names{ 
+	margin-left: 18px;
+        display: inline;
+}
+
+.suggestionsBox { float: center; position: absolute; left: 180px; top: 30px; margin: 10px 0px 0px 0px; width: 200px; background-color: #D8DFEA; color: black; border: 2px solid #6d86b7; z-index: 999999; }
+.suggestionsBox .suggestionList { margin: 0px; padding: 0px; list-style: none; }
+.suggestionsBox .suggestionList li { margin: 0px 0px 3px 0px; padding: 6px; cursor: pointer; text-align: left; font-weight: bold; color: black; display: block;}
+.suggestionsBox .suggestionList li:hover { background: #6d86b7; color: white; }
+.suggestionsBox .suggestionList li.resultsNotice { color: gray; font-weight: normal; cursor: default; }
+.suggestionsBox .suggestionList li.resultsNotice:hover { background: none; color: gray;}
+
+.fb-like {
+	width: 150px;
+	padding-top: 5px;
+	display: inline;
+	margin-right: 10px;
+	word-wrap: break-word;
+}
+
+.fb-like iframe{
+	width: 150px;
+	padding-top: 20px;
+	display: inline;
+	margin-right: 10px;
+	word-wrap: break-word;
+}
+
+.shareit-box {
+  position: absolute;
+  padding: 3px 5px;
+  border: 1px solid #6d86b7;
+  background: #D8DFEA;
+  width: 120px;
+}
+.shareit-box h2 {
+  font-size: 11px;
+  font-weight: bold;
+  margin: 3px 0 2px 0;
+  text-align: left;
+  color: #333;
+  background: none;
+}
+.shareit-box a {
+  margin: 0 2px;
+}
+.shareit-box img {
+  border: none;
+}
+
+
+/* Comment form */
+
+.commentnow table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+  empty-cells: show;
+}
+
+.commentnow .label {
+  padding-top: 2px;
+  padding-right: 8px;
+  vertical-align: top;
+  text-align: right;
+  width: 10px;
+  white-space: nowrap;
+}
+
+.commentnow .field {
+  padding-bottom: 0px;
+  white-space: nowrap;
+}
+
+.commentnow .status {
+  padding-top: 2px;
+  padding-left: 8px;
+  vertical-align: top;
+  width: 10px;
+  white-space: nowrap;
+}
+
+.commentnow .textfield {
+  width: 150px;
+}
+
+.commentnow textarea {
+  width: 200px;
+}
+
+.commentnow label.error {
+  background:url("../img/pisbuk/unchecked.gif") no-repeat 0px 0px;
+  padding-left: 16px;
+  padding-bottom: 2px;
+  font-weight: bold;
+  color: #EA5200;
+}
+
+.commentnow label.checked {
+  background:url("../img/pisbuk/checked.gif") no-repeat 0px 0px;
+}
+
+.commentnow .success_msg {
+  font-weight: bold;
+  color: #0060BF;
+  margin-left: 19px;
+}
+
+#loading {
+ 	width: 50px;
+ 	height: 50px;
+ 	position: absolute;
+ 	left: 120px;
+ 	top: 50%;
+/* 	margin-top: -50px;	*/
+/* 	margin-left: -100px;	*/
+ 	text-align: center;
+ 	z-index: 999999999;
+ 	float: left;
+}
+
+
+.faces img{
+  margin: 2px 1px 1px 1px;
+}
+
+.big {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #6d86b7;
+}
+
+.profile_edit {
+	background: #ECEFF5 no-repeat scroll 7px 7px;	
+	float: left;
+	clear: both;	
+	padding: 7px;
+	margin: 2px 0px 0px 0px;
+	color: #777;
+	margin-bottom: 10px;
+}
+
+.profile_edit input, textarea{
+	color: #000;
+}
+.profile_edit .button{
+	color: #FFF;
+}
+
+
+/* captcha */
+.captchaImage { margin: 0 2px; }
+.simpleCaptchaSelected { border: 2px solid #6d86b7; }

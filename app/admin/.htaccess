@@ -1,0 +1,4 @@
+AuthName "Pisbuk Admin"
+AuthType Basic
+AuthUserFile "/home/argaon5/public_html/pisay91.org/app/admin/.htusers"
+require valid-user

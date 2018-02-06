@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Pisbuk RSS Feed</title>
+    <link>{$post_link}</link>
+    <description>The Latest Comments</description>
+    <copyright>Copyright 2011 Clint Larraga</copyright>
+    <lastBuildDate>{$date_build}</lastBuildDate>
+    <generator>Pisbuk RSS Feeder</generator>
+    <image>
+      <title>Pisbuk</title>
+      <url>{$image_url}</url>
+      <link>{$image_link}</link>
+      <width>50</width>
+      <height>50</height>
+      <description>Pisbuk Logo</description>
+    </image>
+{$comments} 
+  </channel>
+</rss>

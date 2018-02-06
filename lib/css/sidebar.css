@@ -1,0 +1,112 @@
+#content {
+	width:767px;
+	border-left: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	padding-left: 15px;
+	border-right: 1px solid #CCCCCC;	
+}
+
+#main{
+	width: 575px;
+	float:left;
+}
+
+#main .post-text {
+	width: 500px;
+}
+
+.archive {
+	width: 95%;
+}
+
+#sidebarright {
+	float: right;
+	width: 182px;
+	padding-top: 20px;
+	display: inline;
+	margin-right: 10px;
+}
+
+#sidebarright .widget {
+	background-color: #FFFFFF;
+	border-top:1px solid #e2e2e2;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #e2e2e2;
+}
+#sidebarright .widgettitle {
+	background:#f2f2f2 none repeat scroll 0 0;
+	border-top:0 none;
+	display:block;
+	font-size:11px;
+	margin-bottom:5px;
+	padding: 3px 0px 3px 5px;
+}
+
+#sidebarright .widgettitle  a {
+	text-decoration: none;
+	color: #000;
+}
+
+#sidebarright .widgettitle img {
+	display: none;
+}
+
+#sidebarright .widget ul {
+	padding:0px 7px 10px 0px;
+}
+
+.widget li {
+	margin-top: 5px;
+}
+
+.navigation {
+	width: 96%;
+}
+
+.buttons{
+	display: block;
+	padding-bottom: 45px;	
+	min-height: 24px;
+/*	clear: left;	*/
+	float: right;
+}
+
+.clearfix:after {
+   content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   line-height: 0;
+   height: 0;
+}
+ 
+.clearfix {
+   display: inline-block;
+   z-index: -9999;
+}
+ 
+html[xmlns] .clearfix {
+   display: block;
+}
+ 
+* html .clearfix {
+   height: 1%;
+   overflow: visible;
+}
+
+.byline{
+	width: 575px;
+	margin-top: 4px;
+	line-height: 15px;
+	height: 45px;
+	overflow: auto;
+}
+
+.bylinefragment {
+	margin-right: 8px;
+	color: #666;
+}

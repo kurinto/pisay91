@@ -1,0 +1,15 @@
+<!-- begin comment id: $comment_id} -->				
+<a name="comment-{$comment_id}"></a>
+				<div class="index-comment" id={$comment_id}>
+					<div class="ic-avatar"><img alt='' src='http://www.gravatar.com/avatar/{$comment_email}?s=50&amp;d=monsterid&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></div>
+					<div class="ic-text">
+						{if $comment_url}<div class="ic-meta ic-author"><a href='{$comment_url}' rel='external nofollow' class='url' target='_blank'>{$comment_author}</a></div>
+						{else}<div class="ic-meta ic-author">{$comment_author}</div> {/if}
+
+						<div class="ic-content">{$comment_note}</div>
+						<!-- div class="ic-meta ic-date">{$comment_date|date_format:"%e %B %Y at %l:%M %p"}</div -->
+						<div class="ic-meta ic-date">{$comment_date} {if $writeup eq 'edit'}via {$comment_ip}{/if}</div>
+			 {if $writeup eq 'edit'}<div style="float: right;"><a href="?id={$CID}&act=rc&cid={$comment_id}" onclick="return confirmDialog();" title="Delete Comment #{$comment_id}"><img src="{$CONFIG_IMG_URL}pisbuk/ekis.png" alt="Delete Comment #{$comment_id}"></a></div>{/if}
+					</div>
+				</div>
+<!-- end comment id: $comment_id} -->				

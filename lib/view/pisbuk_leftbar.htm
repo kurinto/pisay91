@@ -1,0 +1,39 @@
+<!-- begin leftbar -->
+		<div id="sidebar">
+		<ul>
+			<li class="large-avatar">{$gradpix}</li>				
+			{if $quip}<li class="user-desc"><span>{$quip}</span></li>{/if}					
+
+				{if ($writeup or $faces) and $hidewu neq 'yes'}
+				<li class="widget">
+					<h2 class="widgettitle">Toggles</h2>
+						<ul>
+						{if $writeup}<li class="wall"><A HREF="#" id="writeup">Writeup</A></li> {/if}
+						{if $faces}<li class="friends"><A HREF="#" id="boys">Ladies</A> and <A HREF="#" id="girls">Gentlemen</A></li> {/if}
+						</ul>
+				</li>
+				{/if}	
+				{if $litratuwaan}
+				<li class="widget">
+					<h2 class="widgettitle">Ourselves</h2>
+						<ul>
+						<li class="photos"><A HREF="index_litratuwaan.php?f=2011">Homecoming 2011</A></li>
+						<li class="photos"><A HREF="index_litratuwaan.php?f=then">Then</A> and <A HREF="index_litratuwaan.php?f=now">Now</A></li>
+						<li class="videos">in <A HREF="index_litratuwaan.php?f=retro">Retrospect</A></li>
+						</ul>
+				</li>
+				{/if}	
+				{if $toggle_gp}
+				<li class="widget">
+					<h2 class="widgettitle">Permanent Toggles</h2>
+						<ul>
+						<li class="photos">{$toggle_gp}</li>
+						</ul>
+				</li>
+				{/if}	
+				{if $post_id eq '501'}<li>
+				<iframe src="//www.facebook.com/plugins/like.php?href={$SELF}&amp;width=180&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=180&amp;appId=185531398166539" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:180px; height:150px;" allowTransparency="true"></iframe>
+				</li>{/if}	
+		</ul>
+		</div>		
+<!-- end leftbar -->

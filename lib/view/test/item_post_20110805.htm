@@ -1,0 +1,133 @@
+<!-- begin post -->
+{literal}
+<script type="text/javascript" language="javascript">
+$(document).ready(function () {
+       {/literal}{if not $post_likes}{literal}	document.getElementById("likes-{/literal}{$post_id}{literal}").style.display="none";{/literal}{/if}{literal}
+       $("#shareme{/literal}-{$post_id}{literal}").shareIt();
+	var validator = $("#commentnow{/literal}-{$post_id}{literal}").validate({
+		rules: {
+			c_author: "required",
+			c_email: "required",
+			c_note: "required",
+			c_author: {
+				required: true,
+				minlength: 2
+			},
+			c_email: {
+				required: true,
+				email: true
+			},
+			c_note: {
+				required: true,
+				minlength: 2
+			}
+		},
+		messages: {
+			c_author: "name?",
+			c_email: {
+				required: "email?",
+				minlength: "weh?"
+			},
+			c_note: "sup?"
+		},
+		errorPlacement: function(error, element) {
+			if ( element.is(":radio") )
+				error.appendTo( element.parent().next().next() );
+			else if ( element.is(":checkbox") )
+				error.appendTo ( element.next() );
+			else
+				error.appendTo( element.parent().next() );
+		},
+		success: function(label) {
+			// set &nbsp; as text for IE
+			label.html("&nbsp;").addClass("checked");
+		}
+	});
+
+});
+
+var RecaptchaOptions = {
+    theme : 'white'
+ };
+
+</script>
+{/literal}
+
+
+<a name="post-{$post_id}"></a>
+<div class="post" id="post-{$post_id}">
+
+		<div class="post-gravatar">{$avatar}</div>
+				
+		<div class="post-text">
+		<p class="status">
+		<b><a class="viewpost" href="#">{$post_title}</a></b>
+		{$post_note}
+		</p>
+
+			<div class="meta">
+				<a href="{$aka}" class="perm" rel="bookmark">{$post_type}</a> 
+			<!--	&#183; {$post_date|date_format:"%e %B %Y at %l:%M %p"} -->
+			 	&#183; {$post_date} 
+				&#183; <a href="#post-{$post_id}" class="crush" id="like-{$post_id}">Like</a> 
+				&#183; <a href="#post-{$post_id}" class="respondlink notajax" id="respondlink-{$post_id}">Comment</a>
+				&#183; <a href="#post-{$post_id}" id="shareme-{$post_id}">Share</a>
+			</div>	
+			{if $post_likes}
+			<div class='likes' id='likes-{$post_id}'>
+				<div  class='text'>{$post_likes}</div>
+			</div>
+			{else}
+			<div class='likes' id='likes-{$post_id}'>
+			</div>
+			{/if}
+
+			<div id="commentcontainer-{$post_id}">
+				{if $comment_count > 5}<div class="index-comment morecomments"><a class="viewall" id="viewall-{$post_id}" href="#">View all {$comment_count} Pisbuk comments</a></div>{/if}
+				{$comments}
+			</div>
+			{if $comment_count > 0}<div class="index-comment"><textarea class="respondtext">Write a comment...</textarea></div>	{/if}		
+
+			<div id="commentform-{$post_id}" class="index-comment comment-form" style="display:none;">
+				<form id="commentnow-{$post_id}" class="commentnow" autocomplete="on" action="add_comment.php" method="POST">
+		  		  <table>
+		  		  <tr>
+		  		  	<td class="label"><label for="c_author">Name</label></td>
+		  		  	<td class="field"><input class="author focus input" name="c_author" type="text" value="" maxlength="32" /></td>
+		  		  	<td class="status"></td>
+		  		  </tr>
+		  		  <tr>
+		  			<td class="label"><label for="c_email"><a href="http://en.gravatar.com/" target="_blank">Email</a></label></td>
+		  			<td class="field"><input class="email input" name="c_email" type="text" value="" maxlength="128" /></td>
+		  			<td class="status"></td>
+		  		  </tr>
+		  		  <tr>
+		  			<td class="label"><label for="c_url">Website</label></td>
+		  			<td class="field"><input class="url input" name="c_url" type="text" value="" maxlength="128" /></td>
+		  			<td class="status"></td>
+		  		  </tr>
+		  		  <tr>
+		  			<td class="label"><label for="c_note">Comment</label></td>
+		  			<td class="field"><textarea class="atg focus input" name="c_note" value=""></textarea></td>
+		  			<td class="status"></td>
+		  		  </tr>
+				  {if $recaptcha}
+		  		  <tr>
+		  			<td colspan="4"><div id="recaptcha-{$post_id}">{$recaptcha}<br><br></div></td>
+		  		  </tr>
+		  		  {/if}
+		  		  <tr>
+		  			<td class="label"><label id="lsubmit" for="submit"></label></td>
+					<td class="field" colspan="4"><input type="submit" name="c_submit" value="Comment" class="submit button" />
+		  			</td>
+		  		  </tr>
+		  		  </table>
+				<input type="hidden" name="pid" value="{$post_id}" />
+				<input type="hidden" name="c_date" value="{$todey}" />
+				</form>
+			</div>
+		</div>
+
+</div>
+<!-- end post -->
+	

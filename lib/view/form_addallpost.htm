@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body>
+<fieldset style="text-align: right; width: 300px;">
+<legend>Add post here</legend>
+
+	<form autocomplete=off action="{$action_url}" method="POST">
+		<!-- id: <input name="id" type="text" value="{$nextid}" size=3 /><BR --> 
+		type: <input name="p_type" type="text" /><BR>
+		title: <input name="p_title" type="text" /><BR> 
+		post: <textarea name="p_note"></textarea><BR>
+
+		<input type="submit" name="submit" value="Submit" class="submit" />
+	</form>
+</fieldset>
+<BR><BR>
+{$messages}	
+</body>
+</html>

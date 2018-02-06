@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+	<title>Pisbuk | Pisay91 Yirbuk</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="../css/pisbuk.css" />
+	<link rel='stylesheet' id='slf_sidebarad-css'  href='../css/sidebar.css' type='text/css' media='' />
+	<link rel='stylesheet' id='sociable-front-css-css'  href='../css/sociable.css' type='text/css' media='' />
+	<!-- link rel='stylesheet' id='slf_ajaxcss-css'  href='../css/ajax.css' type='text/css' media='' / -->
+
+<script type='text/javascript' src='../js/jquery/jquery-1.5.1.min.js'></script>
+<script type='text/javascript' src='../js/jquery/jquery.autogrow.js'></script>
+<script type='text/javascript' src='../js/pisbuk2.js'></script>
+
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="../css/ie.css" />
+	<style type="text/css" media="screen">
+		body{behavior:url(../css/iehover.htc);}
+	</style>
+	<![endif]-->
+	<!-- End Conditional Style -->
+
+<!-- predictive search -->
+<script type="text/javascript" language="javascript">
+function lookup(inputString) {
+    if(inputString.length == 0) {
+        // Hide the suggestion box.
+        $('#suggestions').hide();
+    } else {
+        $.post("rpc.php", {queryString: ""+inputString+""}, function(data){
+            if(data.length >0) {
+                $('#suggestions').show();
+                $('#autoSuggestionsList').html(data);
+            }
+        });
+    }
+} // lookup
+
+function fill(thisValue) {
+    $('#inputString').val(thisValue);
+   	$('#suggestions').hide();
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="suggestionsBox" id="suggestions" style="display: none;">
+<ul class="suggestionList" id="autoSuggestionsList"></ul>
+</div>
+
+
+<div class="one">
+	<div id="header">
+		<div id="menu">			
+		
+			<div id="top">				
+				<div id="thetitle">		
+					<a href="http://pisay91.org/"><img id="logo" src="../img/pisbuk/pisbuk-logo.jpg" alt="Pisbuk"></a>	
+				</div>				
+				<div id="thelinks">	
+					<ul id="pagemenu">	
+						<li class="icons"><a href="#"><img src="../img/pisbuk/friends.gif" ALT="I'm feeling lucky"></a></li>
+						<li class="icons"><a href="#"><img src="../img/pisbuk/about.gif"></a></li>
+						<li class="icons"><a href="#"><img src="../img/pisbuk/feed.gif"></a></li>
+					</ul>				
+				</div>			
+			</div>			
+			<div class="searchy">				
+				<div id="thebox">					
+					<span id="searchbar"> 	
+						<form action="search.php" method="get" name="search_form" class="search_form"> 	
+							<!-- input name="s" onfocus="this.value=''" type="text" value="Search" --> 
+							<input type="text" onfocus="this.value=''" name="q" value="Search" onkeyup="lookup(this.value);" class="search-input" id="inputString" autocomplete="on" />
+							<button type="submit" title="Search"></button>
+						</form> 					
+					</span>                 
+				</div>		
+				<div id="more">
+				<ul id="moremenu">		
+					<li><strong><a href="#" onclick="return false">Home</a></strong></li>
+					<li><strong><a href="#">Profile</a></strong></li>
+					<li><strong><a href="#" onclick="return false">Account &nbsp;&#9660;</a></strong>
+						<ul id="feedmenu">	
+							<li class="feedli"><a href="#">Facebook</a></li>
+							<li class="feedli"><a href="#">E-groups</a></li>
+						</ul>
+					</li>
+				</ul>	
+				</div>
+			</div>		
+		</div>	
+	</div>
+<div class="clear"></div>
+</div>	
+<div id="wrapper">
+	<div id="container">
+		<div id="sidebar">
+		<ul>
+			<li class="large-avatar"><img src="../../data/files/avatars/remoto.jpg" width="180px;" /></li>				
+			<li class="user-desc"><span>"An eye for an eye only makes the whole world blind" <BR><BR>-Gandhi</span></li>					
+
+				<li class="widget">
+					<h2 class="widgettitle">old school menu</h2>
+						<ul>
+						<li class="wall"><A HREF="#">Home</A></li>
+						<li class="info"><A HREF="#">Credits</A></li>
+						<li class="notes"><A HREF="#">Foundation</A></li>
+						<li class="photos"><A HREF="#">Multimedia</A></li>
+						<li class="friends"><A HREF="#">Classmates by Section</A></li>
+						<li class="friends"><A HREF="#">Classmates by Profile</A></li>
+						</ul>
+				</li>
+				<!-- li class="widget">
+					<h2 class="widgettitle">Slambook</h2>
+						<ul>
+						<li><span class="ic-date">Favorite Color?</li>
+						<li>Green</li>
+						</ul>
+						<ul>
+						<li><span class="ic-date">Who is your crush?</li>
+						<li>Spiderman</li>
+						</ul>
+						<ul>
+						<li><span class="ic-date">Did it hurt the first time?</li>
+						<li>Yes</li>
+						</ul>
+						<ul>
+						<li><span class="ic-date">Why is the sky blue?</li>
+						<li>Polarization of blue light</li>
+						</ul>
+				</li -->
+		</ul>
+		</div>		
+		<div id="content">
+		
+		<div id="main">
+		
+			<div id="title">				
+				<span class="profilename">Jennifer Ribaya Remoto</span>
+				
+				<div class="byline">					
+					<span class="bylinefragment"><i class="profiledetails work"></i>Works at <a href="http://facebuko.com/#">Central Intelligence Agency</a></span> <span class="bylinefragment"><i class="profiledetails school"></i>Studying MA Witchcraft and Wizardry with Computer Science at <a href="http://facebuko.com/#">Hogwarts</a></span> <span class="bylinefragment"><i class="profiledetails lives"></i>Lives in <a href="http://facebuko.com/#">a pineapple under the sea</a></span> <span class="bylinefragment"><i class="profiledetails love"></i>In a bad romance with <a href="http://facebuko.com/#">Facebook</a></span>  <span class="bylinefragment"><i class="profiledetails language"></i>Knows Jejemon, Bekimon, Frurent Engrish</span> <span class="bylinefragment"><i class="profiledetails home"></i>From <a href="http://facebuko.com/#">127.0.0.1, Port 8080</a></span> <span class="bylinefragment"><i class="profiledetails birthday"></i>Born on July 13, 2009</span>
+				</div>
+			</div>
+			
+			<div id="categories">
+				<ul>
+					<li class="cat-item current-cat"><a href="#">Wall</a></li>				
+					<li class="cat-item"><a href="#">Sapphire</a></li>						
+					<li class="cat-item"><a href="#">Ilang-ilang</a></li>						
+					<li class="cat-item"><a href="#">Beryllium</a></li>						
+					<li class="cat-item"><a href="#">Photon</a></li>						
+				
+					<li id="liplus">
+						<a id="plus" href="#" title="Activities..." onclick="showbox(this); return false" class="none">&nbsp;</a>						
+						<div id="hiddencats" style="display: none;">
+							<div id="hiddenleft"><div id="hiddenplus" onclick="hidebox()">&nbsp;</div></div>
+							<div id="hiddenright">
+								<ul>
+									<li class="browsecat">Extra Curriculars :</li>
+									<li class="cat-item"><a href="#">Photos</a></li>
+									<li class="cat-item"><a href="#">Videos</a></li>
+								</ul>
+							</div>
+						</div>
+						
+					</li>
+				</ul>
+			</div>
+
+<!-- input type="submit" value="load()" id="load_basic" / -->
+<!-- a href="javascript:load()" id="load_basic" />load envato</a -->
+
+<div id="post-container">
+	<div id="posts">
+
+<h2 class="archive">Jennifer's Yearbook Writeup</h2>
+
+	<div class="post-list">
+	<div class="post" id="post-620">
+		<div class="post-gravatar"><img src="../../data/files/avatars/remoto_thumb.jpg" alt="Jen" /></div>
+				<div class="post-text">
+				<p class="status"><b><a href="#">Jenny Remoto</a></b><BLOCKQUOTE><STRONG> Jenny, a regular customer on the dean's list, the model student with more than her share of flat one's in Math. Small and slight, she looks demure and shy, but one only has to see the gleam in those pretty brown eyes to know there's an imp underneath.
+				<br><br>Mischievous like a child, talkative with friends, she can also be as "mataray" as the best of them. That elfin face can suddenly change, raise an eyebrow, narrow those eyes, and she would utter the caustic word "Talaga?". (O, kaya niyo 'yan?) But on the whole she's just plain fun to be with. One never runs out of topics to talk about with her. From projects, to boys (especially ________!), to the latest canteen and class gossip. A pretty well-informed person, wouldn't you say?
+				<br><br>Jenny is also the ideal friend. As the cliche goes, she's "always there to lend an ear, offer a helping hand, and give a comforting hug." She's the type of person whose smile can make a bleak day look just a little bit brighter. </STRONG></BLOCKQUOTE> </p>
+				<br></p>
+
+
+			<div class="meta">
+				<a href="#" class="perm" rel="bookmark">Yearbook Writeup</a> &#183; 
+				31 July 2009 &#183; 
+				<a href="#" class="respondlink notajax" id="respondlink-620">Comments</a>
+							</div>	
+			<div class="commentcontainer">
+
+				<div class="index-comment morecomments" id="all_comments"><a id="load_basic" href="/wp/?p=1?#comments">View all comments</a></div>
+
+				<!-- div class="index-comment" id="new_comment"></div -->
+			</div>
+			
+			<div class="index-comment"><textarea class="respondtext">Write a comment...</textarea></div>			
+
+			<div id="commentform-620" class="index-comment comment-form" style="display:none;">
+					<form action="classmate2.html" method="post">
+					<div class="form_input">
+						<input class="author focus" name="author" type="text" />
+						<label for="author">Name</label>
+					</div>
+					<div class="form_input">
+						<input class="email" name="email" type="text" />
+						<label for="email">Email (<a href="http://en.gravatar.com/">Gravatar</a> enabled)</label>
+					</div>
+					<div class="form_input">
+						<input class="url" name="url" type="text" />
+						<label for="url">Website</label>
+					</div>
+					<div class="form_comment">
+						<textarea name="comment" class="focus "></textarea>
+					</div>
+					<div class="form_submit">
+						<input type="submit" name="submit" value="Comment" class="submit" />
+					</div>
+					<input type="hidden" name="comment_post_ID" value="620" />
+					</form>
+			</div>
+			
+		</div>
+	</div>
+               
+
+
+
+
+
+</div>
+	
+<div class="navigation">
+	<div class="prev"><< previous classmate</div>
+	<div class="next">next classmate >></div>
+</div>
+	
+	</div>
+</div>
+	
+</div> <!--end of main -->
+
+
+<div id="sidebarright">
+
+	<div class="clearfix">
+		<div class="buttons">
+			<a href="#"><img src="../img/pisbuk/button_editprofile.png" ></a>&nbsp;
+			<!-- a href="#"><img src="../img/pisbuk/button_viewprofile.png" ></a -->
+		</div>		 
+		<div>&nbsp;</div>
+	</div>
+	
+	<ul>
+
+				
+			<li class="widget">
+				<h2 class="widgettitle">See Friendships</h2>
+				<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fpisay91.org&amp;layout=standard&amp;show_faces=true&amp;width=180&amp;action=love&amp;colorscheme=light&amp;height=120" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:180px; height:120px;" allowTransparency="true"></iframe>
+			</li>
+
+			<!-- li class="widget">
+				<h2 class="widgettitle">Thanks to:</h2>
+				<ul>
+				<li><span class="ic-date">Philippine Science High School Class of 1991 Yearbook Committee</a></li>
+				</ul>
+			</li -->		
+
+		
+	</ul>
+
+</div>
+
+
+</div> <!--end of content-->
+
+
+</div> <!--end of container-->
+
+<div id="footer">
+<div class="footnote">
+	<div align="center">
+	</div>
+</div>
+
+<div class="footnote">
+<div style="float:left;">
+Blah blah blah
+</div>
+<div style="float:right">
+	<a href="#">Disclaimer</a>&nbsp;&middot;&nbsp;
+	layout inspired by:
+	<a href="http://www.facebook.com">Mark Zuckerberg</a>, <a href="http://nazieb.com/456/smells-like-facebook">Ainun Nazieb</a> and <a href="http://facebuko.com/">Jonas Roque</a>
+</div>
+</div> <!--end of footer-->
+
+</div> <!--end of wrapper-->
+
+
+
+</div> <!--end of one-->
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+
+	<title>{$LANG_NAME} | {$fullname}</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta property="fb:app_id" content="185531398166539">
+	<meta property="fb:admins" content="1068308337">
+	<meta property="og:title" content="{$fullname}" />
+	<meta property="og:description" content="{$og_description}" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="{$SELF}" />
+	<meta property="og:image" content="{$SELFAV}" />
+	<meta property="og:site_name" content="{$LANG_NAME}" />
+
+	<link rel="stylesheet" type="text/css" href="{$CONFIG_CSS_URL}pisbuk.css" />
+	<link rel="stylesheet" type="text/css" href="{$CONFIG_CSS_URL}sidebar.css" />
+{literal}
+<script type="text/javascript">
+document.write('<div id="loading"><img src="{/literal}{$CONFIG_IMG_URL}{literal}pisbuk/ajax/indicator_large.gif" alt="loading..." /></div>');
+window.onload=function(){
+	document.getElementById("loading").style.display="none";
+{/literal}{if $hidewu}{literal}	document.getElementById("yirbuk").style.display="none";{/literal}{/if}{literal}
+}
+// begin google analytics
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22602235-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+// end google analytics
+</script>
+{/literal}
+
+<!-- firebug. comment/disable on production environment -->
+<!-- script type="text/javascript" src="/firebug-lite/build/firebug-lite-debug.js"></script --> 
+
+<script type='text/javascript' src="{$CONFIG_JS_URL}jquery/jquery-1.5.1.min.js"></script>
+<script type='text/javascript' src="{$CONFIG_JS_URL}jquery/jquery.autogrow_textarea.js"></script>
+<script type='text/javascript' src="{$CONFIG_JS_URL}jquery/jquery.onefblike.js"></script>
+<script type='text/javascript' src="{$CONFIG_JS_URL}jquery/jquery.shareit.js"></script>
+<script type='text/javascript' src="{$CONFIG_JS_URL}jquery/jquery.validate.js"></script>
+<script type='text/javascript' src="{$CONFIG_JS_URL}jquery/jquery.simpleCaptcha-0.2.js"></script>
+<script type='text/javascript' src="{$CONFIG_JS_URL}pisbuk2.js"></script>
+{literal}
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="{/literal}{$CONFIG_CSS_URL}{literal}ie.css" />
+	<style type="text/css" media="screen">
+		body{behavior:url({/literal}{$CONFIG_CSS_URL}{literal}iehover.htc);}
+	</style>
+	<![endif]-->
+	<!-- End Conditional Style -->
+{/literal}
+<script type="text/javascript" language="javascript">
+{literal}
+$(document).ready(function () {
+        $('.fb-like').oneFBLike({appID:'216581065022304'});
+
+	$('#loading')
+//	    .hide()  // hide it initially
+	    .ajaxStart(function() {
+	        $(this).show();
+	    })
+	    .ajaxStop(function() {
+	        $(this).hide();
+	    });
+});
+{/literal}
+</script>
+</head>
